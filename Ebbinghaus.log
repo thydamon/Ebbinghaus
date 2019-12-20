@@ -1,0 +1,728 @@
+2019-12-17 13:39:10,964 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.863796]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,965 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.860475]ebbinghaus_time[8.000000]
+2019-12-17 13:39:10,965 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.178530]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,965 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.177442]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,965 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.175694]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,965 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.175567]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,966 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.161296]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,966 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.160799]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,966 Ebbinghaus.py:today_to_do_list:69 INFO] interval_time[0.160197]ebbinghaus_time[0.500000]
+2019-12-17 13:39:10,966 Ebbinghaus.py:<module>:139 INFO] **************************************************
+2019-12-17 13:39:10,967 Ebbinghaus.py:<module>:140 INFO] [(1, 'name1', 'content1', '2019-12-16 16:55:18', 1)]
+2019-12-17 13:39:10,967 Ebbinghaus.py:<module>:141 INFO] ==================================================
+2019-12-17 13:39:10,967 Ebbinghaus.py:update_today_task:121 INFO] select times from items where id = 2
+2019-12-17 13:39:10,967 Ebbinghaus.py:update_today_task:128 INFO] update items set times = 2, ebbinghausid = 5, remark = '' where id = 2
+2019-12-17 13:39:10,987 Ebbinghaus.py:<module>:144 INFO] **************************************************
+2019-12-17 13:39:10,987 Ebbinghaus.py:<module>:145 INFO] [(1, 'name1', 'content1', '2019-12-16 16:55:18', 1)]
+2019-12-18 14:02:26,224 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.879954]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,224 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.876632]ebbinghaus_time[8.000000]
+2019-12-18 14:02:26,224 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.194688]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,225 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.193600]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,225 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.191852]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,225 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.191725]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,225 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.177454]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,225 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.176956]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,225 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[1.176354]ebbinghaus_time[0.500000]
+2019-12-18 14:02:26,226 Winframe.py:<module>:236 INFO] **************************************************
+2019-12-18 14:02:26,226 Winframe.py:<module>:237 INFO] [(1, 'name1', 'content1', '2019-12-16 16:55:18', 1), (3, 'name2', 'content2', '2019-12-17 09:22:05', 1), (4, 'name3', 'content3', '2019-12-17 09:23:39', 1), (5, 'name3', 'content3', '2019-12-17 09:26:10', 1), (6, 'name3', 'content3', '2019-12-17 09:26:21', 1), (7, 'name3', 'content3', '2019-12-17 09:46:54', 1), (8, 'name3', 'content3', '2019-12-17 09:47:37', 1), (9, 'name3', 'content3', '2019-12-17 09:48:29', 1)]
+2019-12-18 14:06:13,110 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.882581]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,111 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.879259]ebbinghaus_time[8.000000]
+2019-12-18 14:06:13,111 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.197315]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,111 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.196227]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,111 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.194479]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,111 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.194352]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,112 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.180081]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,112 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.179583]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,112 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.178981]ebbinghaus_time[0.500000]
+2019-12-18 14:06:13,112 Winframe.py:<module>:236 INFO] **************************************************
+2019-12-18 14:06:13,112 Winframe.py:<module>:237 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:07:24,902 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.883403]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,902 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.880081]ebbinghaus_time[8.000000]
+2019-12-18 14:07:24,903 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.198137]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,903 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.197049]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,903 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.195301]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,903 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.195174]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,903 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.180903]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,903 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.180405]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,904 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.179803]ebbinghaus_time[0.500000]
+2019-12-18 14:07:24,904 Winframe.py:<module>:238 INFO] **************************************************
+2019-12-18 14:07:24,904 Winframe.py:<module>:239 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:07:26,928 Winframe.py:export:200 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:07:26,928 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,929 Winframe.py:export:202 INFO] name1
+2019-12-18 14:07:26,929 Winframe.py:export:202 INFO] content1
+2019-12-18 14:07:26,929 Winframe.py:export:202 INFO] 2019-12-16 16:55:18
+2019-12-18 14:07:26,929 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,930 Winframe.py:export:200 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 14:07:26,930 Winframe.py:export:202 INFO] 3
+2019-12-18 14:07:26,930 Winframe.py:export:202 INFO] name2
+2019-12-18 14:07:26,930 Winframe.py:export:202 INFO] content2
+2019-12-18 14:07:26,931 Winframe.py:export:202 INFO] 2019-12-17 09:22:05
+2019-12-18 14:07:26,931 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,931 Winframe.py:export:200 INFO] content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1)
+2019-12-18 14:07:26,931 Winframe.py:export:202 INFO] 4
+2019-12-18 14:07:26,931 Winframe.py:export:202 INFO] name3
+2019-12-18 14:07:26,932 Winframe.py:export:202 INFO] content3
+2019-12-18 14:07:26,932 Winframe.py:export:202 INFO] 2019-12-17 09:23:39
+2019-12-18 14:07:26,932 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,932 Winframe.py:export:200 INFO] content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1)
+2019-12-18 14:07:26,932 Winframe.py:export:202 INFO] 5
+2019-12-18 14:07:26,933 Winframe.py:export:202 INFO] name3
+2019-12-18 14:07:26,933 Winframe.py:export:202 INFO] content3
+2019-12-18 14:07:26,933 Winframe.py:export:202 INFO] 2019-12-17 09:26:10
+2019-12-18 14:07:26,933 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,933 Winframe.py:export:200 INFO] content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1)
+2019-12-18 14:07:26,933 Winframe.py:export:202 INFO] 6
+2019-12-18 14:07:26,934 Winframe.py:export:202 INFO] name3
+2019-12-18 14:07:26,934 Winframe.py:export:202 INFO] content3
+2019-12-18 14:07:26,934 Winframe.py:export:202 INFO] 2019-12-17 09:26:21
+2019-12-18 14:07:26,935 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,935 Winframe.py:export:200 INFO] content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1)
+2019-12-18 14:07:26,935 Winframe.py:export:202 INFO] 7
+2019-12-18 14:07:26,935 Winframe.py:export:202 INFO] name3
+2019-12-18 14:07:26,935 Winframe.py:export:202 INFO] content3
+2019-12-18 14:07:26,936 Winframe.py:export:202 INFO] 2019-12-17 09:46:54
+2019-12-18 14:07:26,936 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,936 Winframe.py:export:200 INFO] content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1)
+2019-12-18 14:07:26,936 Winframe.py:export:202 INFO] 8
+2019-12-18 14:07:26,936 Winframe.py:export:202 INFO] name3
+2019-12-18 14:07:26,937 Winframe.py:export:202 INFO] content3
+2019-12-18 14:07:26,937 Winframe.py:export:202 INFO] 2019-12-17 09:47:37
+2019-12-18 14:07:26,937 Winframe.py:export:202 INFO] 1
+2019-12-18 14:07:26,937 Winframe.py:export:200 INFO] content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)
+2019-12-18 14:07:26,937 Winframe.py:export:202 INFO] 9
+2019-12-18 14:07:26,937 Winframe.py:export:202 INFO] name3
+2019-12-18 14:07:26,938 Winframe.py:export:202 INFO] content3
+2019-12-18 14:07:26,938 Winframe.py:export:202 INFO] 2019-12-17 09:48:29
+2019-12-18 14:07:26,938 Winframe.py:export:202 INFO] 1
+2019-12-18 14:15:23,089 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.888947]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,089 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.885625]ebbinghaus_time[8.000000]
+2019-12-18 14:15:23,089 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.203681]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,089 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.202593]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,090 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.200845]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,090 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.200718]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,090 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.186447]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,090 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.185949]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,090 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.185347]ebbinghaus_time[0.500000]
+2019-12-18 14:15:23,090 Winframe.py:<module>:246 INFO] **************************************************
+2019-12-18 14:15:23,091 Winframe.py:<module>:247 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:15:25,680 Winframe.py:export:202 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 14:15:25,681 Winframe.py:export:204 INFO] ID
+2019-12-18 14:15:25,682 Winframe.py:export:204 INFO] Name
+2019-12-18 14:15:25,682 Winframe.py:export:204 INFO] Content
+2019-12-18 14:15:25,683 Winframe.py:export:204 INFO] Time
+2019-12-18 14:15:25,684 Winframe.py:export:204 INFO] EbbinghausID
+2019-12-18 14:15:25,684 Winframe.py:export:208 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:15:25,685 Winframe.py:export:210 INFO] 1
+2019-12-18 14:17:24,968 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.890347]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,969 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.887025]ebbinghaus_time[8.000000]
+2019-12-18 14:17:24,969 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.205081]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,969 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.203993]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,970 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.202245]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,970 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.202118]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,970 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.187847]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,970 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.187350]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,970 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.186748]ebbinghaus_time[0.500000]
+2019-12-18 14:17:24,970 Winframe.py:<module>:248 INFO] **************************************************
+2019-12-18 14:17:24,970 Winframe.py:<module>:249 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:17:26,642 Winframe.py:export:202 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 14:17:26,643 Winframe.py:export:204 INFO] ID
+2019-12-18 14:17:26,644 Winframe.py:export:204 INFO] Name
+2019-12-18 14:17:26,644 Winframe.py:export:204 INFO] Content
+2019-12-18 14:17:26,645 Winframe.py:export:204 INFO] Time
+2019-12-18 14:17:26,646 Winframe.py:export:204 INFO] EbbinghausID
+2019-12-18 14:17:26,646 Winframe.py:export:209 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:17:26,647 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,647 Winframe.py:export:212 INFO] name1
+2019-12-18 14:17:26,648 Winframe.py:export:212 INFO] content1
+2019-12-18 14:17:26,648 Winframe.py:export:212 INFO] 2019-12-16 16:55:18
+2019-12-18 14:17:26,649 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,650 Winframe.py:export:209 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 14:17:26,650 Winframe.py:export:212 INFO] 3
+2019-12-18 14:17:26,651 Winframe.py:export:212 INFO] name2
+2019-12-18 14:17:26,652 Winframe.py:export:212 INFO] content2
+2019-12-18 14:17:26,652 Winframe.py:export:212 INFO] 2019-12-17 09:22:05
+2019-12-18 14:17:26,653 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,653 Winframe.py:export:209 INFO] content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1)
+2019-12-18 14:17:26,654 Winframe.py:export:212 INFO] 4
+2019-12-18 14:17:26,654 Winframe.py:export:212 INFO] name3
+2019-12-18 14:17:26,656 Winframe.py:export:212 INFO] content3
+2019-12-18 14:17:26,656 Winframe.py:export:212 INFO] 2019-12-17 09:23:39
+2019-12-18 14:17:26,659 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,659 Winframe.py:export:209 INFO] content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1)
+2019-12-18 14:17:26,663 Winframe.py:export:212 INFO] 5
+2019-12-18 14:17:26,663 Winframe.py:export:212 INFO] name3
+2019-12-18 14:17:26,663 Winframe.py:export:212 INFO] content3
+2019-12-18 14:17:26,664 Winframe.py:export:212 INFO] 2019-12-17 09:26:10
+2019-12-18 14:17:26,664 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,664 Winframe.py:export:209 INFO] content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1)
+2019-12-18 14:17:26,664 Winframe.py:export:212 INFO] 6
+2019-12-18 14:17:26,664 Winframe.py:export:212 INFO] name3
+2019-12-18 14:17:26,665 Winframe.py:export:212 INFO] content3
+2019-12-18 14:17:26,665 Winframe.py:export:212 INFO] 2019-12-17 09:26:21
+2019-12-18 14:17:26,665 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,665 Winframe.py:export:209 INFO] content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1)
+2019-12-18 14:17:26,665 Winframe.py:export:212 INFO] 7
+2019-12-18 14:17:26,666 Winframe.py:export:212 INFO] name3
+2019-12-18 14:17:26,666 Winframe.py:export:212 INFO] content3
+2019-12-18 14:17:26,666 Winframe.py:export:212 INFO] 2019-12-17 09:46:54
+2019-12-18 14:17:26,666 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,667 Winframe.py:export:209 INFO] content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1)
+2019-12-18 14:17:26,667 Winframe.py:export:212 INFO] 8
+2019-12-18 14:17:26,667 Winframe.py:export:212 INFO] name3
+2019-12-18 14:17:26,667 Winframe.py:export:212 INFO] content3
+2019-12-18 14:17:26,667 Winframe.py:export:212 INFO] 2019-12-17 09:47:37
+2019-12-18 14:17:26,668 Winframe.py:export:212 INFO] 1
+2019-12-18 14:17:26,668 Winframe.py:export:209 INFO] content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)
+2019-12-18 14:17:26,668 Winframe.py:export:212 INFO] 9
+2019-12-18 14:17:26,668 Winframe.py:export:212 INFO] name3
+2019-12-18 14:17:26,668 Winframe.py:export:212 INFO] content3
+2019-12-18 14:17:26,669 Winframe.py:export:212 INFO] 2019-12-17 09:48:29
+2019-12-18 14:17:26,669 Winframe.py:export:212 INFO] 1
+2019-12-18 14:21:38,314 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.893287]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,314 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.889965]ebbinghaus_time[8.000000]
+2019-12-18 14:21:38,315 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208021]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,315 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.206933]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,315 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.205185]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,315 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.205058]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,315 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.190787]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,316 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.190289]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,316 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.189688]ebbinghaus_time[0.500000]
+2019-12-18 14:21:38,316 Winframe.py:<module>:247 INFO] **************************************************
+2019-12-18 14:21:38,316 Winframe.py:<module>:248 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:21:40,528 Winframe.py:export:202 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 14:21:40,528 Winframe.py:export:204 INFO] ID
+2019-12-18 14:21:40,529 Winframe.py:export:204 INFO] Name
+2019-12-18 14:21:40,529 Winframe.py:export:204 INFO] Content
+2019-12-18 14:21:40,530 Winframe.py:export:204 INFO] Time
+2019-12-18 14:21:40,530 Winframe.py:export:204 INFO] EbbinghausID
+2019-12-18 14:21:40,530 Winframe.py:export:209 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:21:40,531 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,531 Winframe.py:export:211 INFO] name1
+2019-12-18 14:21:40,531 Winframe.py:export:211 INFO] content1
+2019-12-18 14:21:40,531 Winframe.py:export:211 INFO] 2019-12-16 16:55:18
+2019-12-18 14:21:40,532 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,533 Winframe.py:export:209 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 14:21:40,533 Winframe.py:export:211 INFO] 3
+2019-12-18 14:21:40,533 Winframe.py:export:211 INFO] name2
+2019-12-18 14:21:40,534 Winframe.py:export:211 INFO] content2
+2019-12-18 14:21:40,534 Winframe.py:export:211 INFO] 2019-12-17 09:22:05
+2019-12-18 14:21:40,535 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,535 Winframe.py:export:209 INFO] content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1)
+2019-12-18 14:21:40,535 Winframe.py:export:211 INFO] 4
+2019-12-18 14:21:40,536 Winframe.py:export:211 INFO] name3
+2019-12-18 14:21:40,536 Winframe.py:export:211 INFO] content3
+2019-12-18 14:21:40,536 Winframe.py:export:211 INFO] 2019-12-17 09:23:39
+2019-12-18 14:21:40,536 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,537 Winframe.py:export:209 INFO] content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1)
+2019-12-18 14:21:40,537 Winframe.py:export:211 INFO] 5
+2019-12-18 14:21:40,538 Winframe.py:export:211 INFO] name3
+2019-12-18 14:21:40,538 Winframe.py:export:211 INFO] content3
+2019-12-18 14:21:40,538 Winframe.py:export:211 INFO] 2019-12-17 09:26:10
+2019-12-18 14:21:40,538 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,539 Winframe.py:export:209 INFO] content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1)
+2019-12-18 14:21:40,539 Winframe.py:export:211 INFO] 6
+2019-12-18 14:21:40,539 Winframe.py:export:211 INFO] name3
+2019-12-18 14:21:40,540 Winframe.py:export:211 INFO] content3
+2019-12-18 14:21:40,540 Winframe.py:export:211 INFO] 2019-12-17 09:26:21
+2019-12-18 14:21:40,540 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,541 Winframe.py:export:209 INFO] content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1)
+2019-12-18 14:21:40,541 Winframe.py:export:211 INFO] 7
+2019-12-18 14:21:40,541 Winframe.py:export:211 INFO] name3
+2019-12-18 14:21:40,542 Winframe.py:export:211 INFO] content3
+2019-12-18 14:21:40,542 Winframe.py:export:211 INFO] 2019-12-17 09:46:54
+2019-12-18 14:21:40,542 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,542 Winframe.py:export:209 INFO] content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1)
+2019-12-18 14:21:40,544 Winframe.py:export:211 INFO] 8
+2019-12-18 14:21:40,545 Winframe.py:export:211 INFO] name3
+2019-12-18 14:21:40,545 Winframe.py:export:211 INFO] content3
+2019-12-18 14:21:40,545 Winframe.py:export:211 INFO] 2019-12-17 09:47:37
+2019-12-18 14:21:40,546 Winframe.py:export:211 INFO] 1
+2019-12-18 14:21:40,546 Winframe.py:export:209 INFO] content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)
+2019-12-18 14:21:40,546 Winframe.py:export:211 INFO] 9
+2019-12-18 14:21:40,547 Winframe.py:export:211 INFO] name3
+2019-12-18 14:21:40,547 Winframe.py:export:211 INFO] content3
+2019-12-18 14:21:40,547 Winframe.py:export:211 INFO] 2019-12-17 09:48:29
+2019-12-18 14:21:40,548 Winframe.py:export:211 INFO] 1
+2019-12-18 14:22:58,752 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.894213]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,753 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.890891]ebbinghaus_time[8.000000]
+2019-12-18 14:22:58,753 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208947]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,753 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.207859]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,753 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.206111]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,753 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.205984]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,753 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.191713]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,754 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.191215]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,754 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.190613]ebbinghaus_time[0.500000]
+2019-12-18 14:22:58,754 Winframe.py:<module>:254 INFO] **************************************************
+2019-12-18 14:22:58,754 Winframe.py:<module>:255 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:23:00,704 Winframe.py:export:209 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 14:23:00,704 Winframe.py:export:211 INFO] ID
+2019-12-18 14:23:00,705 Winframe.py:export:211 INFO] Name
+2019-12-18 14:23:00,705 Winframe.py:export:211 INFO] Content
+2019-12-18 14:23:00,705 Winframe.py:export:211 INFO] Time
+2019-12-18 14:23:00,706 Winframe.py:export:211 INFO] EbbinghausID
+2019-12-18 14:23:00,706 Winframe.py:export:216 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:23:00,706 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,707 Winframe.py:export:218 INFO] name1
+2019-12-18 14:23:00,707 Winframe.py:export:218 INFO] content1
+2019-12-18 14:23:00,707 Winframe.py:export:218 INFO] 2019-12-16 16:55:18
+2019-12-18 14:23:00,708 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,708 Winframe.py:export:216 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 14:23:00,708 Winframe.py:export:218 INFO] 3
+2019-12-18 14:23:00,708 Winframe.py:export:218 INFO] name2
+2019-12-18 14:23:00,709 Winframe.py:export:218 INFO] content2
+2019-12-18 14:23:00,709 Winframe.py:export:218 INFO] 2019-12-17 09:22:05
+2019-12-18 14:23:00,710 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,711 Winframe.py:export:216 INFO] content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1)
+2019-12-18 14:23:00,711 Winframe.py:export:218 INFO] 4
+2019-12-18 14:23:00,712 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:00,712 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:00,713 Winframe.py:export:218 INFO] 2019-12-17 09:23:39
+2019-12-18 14:23:00,713 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,713 Winframe.py:export:216 INFO] content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1)
+2019-12-18 14:23:00,714 Winframe.py:export:218 INFO] 5
+2019-12-18 14:23:00,714 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:00,714 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:00,715 Winframe.py:export:218 INFO] 2019-12-17 09:26:10
+2019-12-18 14:23:00,715 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,715 Winframe.py:export:216 INFO] content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1)
+2019-12-18 14:23:00,716 Winframe.py:export:218 INFO] 6
+2019-12-18 14:23:00,716 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:00,716 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:00,717 Winframe.py:export:218 INFO] 2019-12-17 09:26:21
+2019-12-18 14:23:00,717 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,717 Winframe.py:export:216 INFO] content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1)
+2019-12-18 14:23:00,717 Winframe.py:export:218 INFO] 7
+2019-12-18 14:23:00,717 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:00,718 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:00,718 Winframe.py:export:218 INFO] 2019-12-17 09:46:54
+2019-12-18 14:23:00,718 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,718 Winframe.py:export:216 INFO] content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1)
+2019-12-18 14:23:00,718 Winframe.py:export:218 INFO] 8
+2019-12-18 14:23:00,719 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:00,719 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:00,719 Winframe.py:export:218 INFO] 2019-12-17 09:47:37
+2019-12-18 14:23:00,719 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:00,719 Winframe.py:export:216 INFO] content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)
+2019-12-18 14:23:00,719 Winframe.py:export:218 INFO] 9
+2019-12-18 14:23:00,720 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:00,720 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:00,720 Winframe.py:export:218 INFO] 2019-12-17 09:48:29
+2019-12-18 14:23:00,720 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:40,570 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.894699]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,571 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.891377]ebbinghaus_time[8.000000]
+2019-12-18 14:23:40,571 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.209433]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,571 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208345]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,571 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.206597]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,571 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.206470]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,572 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.192199]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,572 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.191701]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,572 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.191100]ebbinghaus_time[0.500000]
+2019-12-18 14:23:40,572 Winframe.py:<module>:254 INFO] **************************************************
+2019-12-18 14:23:40,572 Winframe.py:<module>:255 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:23:42,580 Winframe.py:export:209 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 14:23:42,580 Winframe.py:export:211 INFO] ID
+2019-12-18 14:23:42,581 Winframe.py:export:211 INFO] Name
+2019-12-18 14:23:42,581 Winframe.py:export:211 INFO] Content
+2019-12-18 14:23:42,581 Winframe.py:export:211 INFO] Time
+2019-12-18 14:23:42,581 Winframe.py:export:211 INFO] EbbinghausID
+2019-12-18 14:23:42,582 Winframe.py:export:216 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:23:42,582 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,582 Winframe.py:export:218 INFO] name1
+2019-12-18 14:23:42,582 Winframe.py:export:218 INFO] content1
+2019-12-18 14:23:42,583 Winframe.py:export:218 INFO] 2019-12-16 16:55:18
+2019-12-18 14:23:42,583 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,583 Winframe.py:export:216 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 14:23:42,583 Winframe.py:export:218 INFO] 3
+2019-12-18 14:23:42,584 Winframe.py:export:218 INFO] name2
+2019-12-18 14:23:42,584 Winframe.py:export:218 INFO] content2
+2019-12-18 14:23:42,584 Winframe.py:export:218 INFO] 2019-12-17 09:22:05
+2019-12-18 14:23:42,585 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,585 Winframe.py:export:216 INFO] content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1)
+2019-12-18 14:23:42,585 Winframe.py:export:218 INFO] 4
+2019-12-18 14:23:42,585 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:42,586 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:42,586 Winframe.py:export:218 INFO] 2019-12-17 09:23:39
+2019-12-18 14:23:42,586 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,586 Winframe.py:export:216 INFO] content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1)
+2019-12-18 14:23:42,587 Winframe.py:export:218 INFO] 5
+2019-12-18 14:23:42,587 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:42,587 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:42,587 Winframe.py:export:218 INFO] 2019-12-17 09:26:10
+2019-12-18 14:23:42,588 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,588 Winframe.py:export:216 INFO] content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1)
+2019-12-18 14:23:42,588 Winframe.py:export:218 INFO] 6
+2019-12-18 14:23:42,588 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:42,589 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:42,589 Winframe.py:export:218 INFO] 2019-12-17 09:26:21
+2019-12-18 14:23:42,589 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,589 Winframe.py:export:216 INFO] content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1)
+2019-12-18 14:23:42,590 Winframe.py:export:218 INFO] 7
+2019-12-18 14:23:42,591 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:42,591 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:42,591 Winframe.py:export:218 INFO] 2019-12-17 09:46:54
+2019-12-18 14:23:42,592 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,592 Winframe.py:export:216 INFO] content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1)
+2019-12-18 14:23:42,592 Winframe.py:export:218 INFO] 8
+2019-12-18 14:23:42,592 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:42,593 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:42,593 Winframe.py:export:218 INFO] 2019-12-17 09:47:37
+2019-12-18 14:23:42,593 Winframe.py:export:218 INFO] 1
+2019-12-18 14:23:42,594 Winframe.py:export:216 INFO] content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)
+2019-12-18 14:23:42,594 Winframe.py:export:218 INFO] 9
+2019-12-18 14:23:42,594 Winframe.py:export:218 INFO] name3
+2019-12-18 14:23:42,594 Winframe.py:export:218 INFO] content3
+2019-12-18 14:23:42,595 Winframe.py:export:218 INFO] 2019-12-17 09:48:29
+2019-12-18 14:23:42,595 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:05,252 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.894988]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,252 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.891667]ebbinghaus_time[8.000000]
+2019-12-18 14:24:05,252 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.209722]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,252 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208634]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,252 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.206887]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,253 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.206759]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,253 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.192488]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,253 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.191991]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,253 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.191389]ebbinghaus_time[0.500000]
+2019-12-18 14:24:05,253 Winframe.py:<module>:254 INFO] **************************************************
+2019-12-18 14:24:05,253 Winframe.py:<module>:255 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:24:07,056 Winframe.py:export:209 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 14:24:07,057 Winframe.py:export:211 INFO] ID
+2019-12-18 14:24:07,057 Winframe.py:export:211 INFO] Name
+2019-12-18 14:24:07,058 Winframe.py:export:211 INFO] Content
+2019-12-18 14:24:07,058 Winframe.py:export:211 INFO] Time
+2019-12-18 14:24:07,058 Winframe.py:export:211 INFO] EbbinghausID
+2019-12-18 14:24:07,058 Winframe.py:export:216 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 14:24:07,059 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,059 Winframe.py:export:218 INFO] name1
+2019-12-18 14:24:07,059 Winframe.py:export:218 INFO] content1
+2019-12-18 14:24:07,059 Winframe.py:export:218 INFO] 2019-12-16 16:55:18
+2019-12-18 14:24:07,060 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,060 Winframe.py:export:216 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 14:24:07,060 Winframe.py:export:218 INFO] 3
+2019-12-18 14:24:07,060 Winframe.py:export:218 INFO] name2
+2019-12-18 14:24:07,061 Winframe.py:export:218 INFO] content2
+2019-12-18 14:24:07,061 Winframe.py:export:218 INFO] 2019-12-17 09:22:05
+2019-12-18 14:24:07,061 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,061 Winframe.py:export:216 INFO] content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1)
+2019-12-18 14:24:07,062 Winframe.py:export:218 INFO] 4
+2019-12-18 14:24:07,062 Winframe.py:export:218 INFO] name3
+2019-12-18 14:24:07,062 Winframe.py:export:218 INFO] content3
+2019-12-18 14:24:07,062 Winframe.py:export:218 INFO] 2019-12-17 09:23:39
+2019-12-18 14:24:07,063 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,063 Winframe.py:export:216 INFO] content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1)
+2019-12-18 14:24:07,063 Winframe.py:export:218 INFO] 5
+2019-12-18 14:24:07,063 Winframe.py:export:218 INFO] name3
+2019-12-18 14:24:07,063 Winframe.py:export:218 INFO] content3
+2019-12-18 14:24:07,064 Winframe.py:export:218 INFO] 2019-12-17 09:26:10
+2019-12-18 14:24:07,064 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,064 Winframe.py:export:216 INFO] content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1)
+2019-12-18 14:24:07,064 Winframe.py:export:218 INFO] 6
+2019-12-18 14:24:07,065 Winframe.py:export:218 INFO] name3
+2019-12-18 14:24:07,065 Winframe.py:export:218 INFO] content3
+2019-12-18 14:24:07,065 Winframe.py:export:218 INFO] 2019-12-17 09:26:21
+2019-12-18 14:24:07,065 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,065 Winframe.py:export:216 INFO] content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1)
+2019-12-18 14:24:07,066 Winframe.py:export:218 INFO] 7
+2019-12-18 14:24:07,066 Winframe.py:export:218 INFO] name3
+2019-12-18 14:24:07,066 Winframe.py:export:218 INFO] content3
+2019-12-18 14:24:07,066 Winframe.py:export:218 INFO] 2019-12-17 09:46:54
+2019-12-18 14:24:07,066 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,067 Winframe.py:export:216 INFO] content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1)
+2019-12-18 14:24:07,067 Winframe.py:export:218 INFO] 8
+2019-12-18 14:24:07,067 Winframe.py:export:218 INFO] name3
+2019-12-18 14:24:07,067 Winframe.py:export:218 INFO] content3
+2019-12-18 14:24:07,068 Winframe.py:export:218 INFO] 2019-12-17 09:47:37
+2019-12-18 14:24:07,068 Winframe.py:export:218 INFO] 1
+2019-12-18 14:24:07,068 Winframe.py:export:216 INFO] content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)
+2019-12-18 14:24:07,068 Winframe.py:export:218 INFO] 9
+2019-12-18 14:24:07,069 Winframe.py:export:218 INFO] name3
+2019-12-18 14:24:07,069 Winframe.py:export:218 INFO] content3
+2019-12-18 14:24:07,069 Winframe.py:export:218 INFO] 2019-12-17 09:48:29
+2019-12-18 14:24:07,069 Winframe.py:export:218 INFO] 1
+2019-12-18 14:47:56,145 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.911551]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,146 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.908229]ebbinghaus_time[8.000000]
+2019-12-18 14:47:56,146 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.226285]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,146 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.225197]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,146 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.223449]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,146 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.223322]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,147 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.209051]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,147 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208553]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,147 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.207951]ebbinghaus_time[0.500000]
+2019-12-18 14:47:56,147 Winframe.py:<module>:253 INFO] **************************************************
+2019-12-18 14:47:56,147 Winframe.py:<module>:254 INFO] [content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1), content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1), content(id=4, name='name3', content='content3', time='2019-12-17 09:23:39', ebbinghausid=1), content(id=5, name='name3', content='content3', time='2019-12-17 09:26:10', ebbinghausid=1), content(id=6, name='name3', content='content3', time='2019-12-17 09:26:21', ebbinghausid=1), content(id=7, name='name3', content='content3', time='2019-12-17 09:46:54', ebbinghausid=1), content(id=8, name='name3', content='content3', time='2019-12-17 09:47:37', ebbinghausid=1), content(id=9, name='name3', content='content3', time='2019-12-17 09:48:29', ebbinghausid=1)]
+2019-12-18 14:48:13,482 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.911748]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,483 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.908426]ebbinghaus_time[8.000000]
+2019-12-18 14:48:13,483 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.226481]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,483 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.225394]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,483 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.223646]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,483 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.223519]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,484 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.209248]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,484 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208750]ebbinghaus_time[0.500000]
+2019-12-18 14:48:13,484 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.208148]ebbinghaus_time[0.500000]
+2019-12-18 14:48:53,175 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 9
+2019-12-18 14:48:53,176 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 8, remark = '.!frame.!text' where id = 9
+2019-12-18 14:54:19,035 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.915984]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,036 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.912662]ebbinghaus_time[8.000000]
+2019-12-18 14:54:19,036 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.230718]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,036 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.229630]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,036 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227882]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,037 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227755]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,037 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.213484]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,037 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.212986]ebbinghaus_time[0.500000]
+2019-12-18 14:54:19,038 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.212384]ebbinghaus_time[90.000000]
+2019-12-18 14:55:09,921 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.916562]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,921 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.913241]ebbinghaus_time[8.000000]
+2019-12-18 14:55:09,921 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.231296]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,922 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.230208]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,922 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.228461]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,922 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.228333]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,922 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.214063]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,922 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.213565]ebbinghaus_time[0.500000]
+2019-12-18 14:55:09,922 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.212963]ebbinghaus_time[90.000000]
+2019-12-18 14:57:29,464 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.918183]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,465 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.914861]ebbinghaus_time[8.000000]
+2019-12-18 14:57:29,465 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.232917]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,465 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.231829]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,465 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.230081]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,465 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.229954]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,466 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.215683]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,466 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.215185]ebbinghaus_time[0.500000]
+2019-12-18 14:57:29,466 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.214583]ebbinghaus_time[90.000000]
+2019-12-18 14:57:29,467 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.001528]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,655 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.918391]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,656 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.915069]ebbinghaus_time[8.000000]
+2019-12-18 14:57:47,656 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.233125]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,656 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.232037]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,656 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.230289]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,656 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.230162]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,657 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.215891]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,657 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.215394]ebbinghaus_time[0.500000]
+2019-12-18 14:57:47,657 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.214792]ebbinghaus_time[90.000000]
+2019-12-18 14:57:47,657 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.001736]ebbinghaus_time[0.500000]
+2019-12-18 14:57:56,196 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 8
+2019-12-18 14:57:56,196 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 5, remark = '
+' where id = 8
+2019-12-18 14:58:19,416 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 8
+2019-12-18 14:58:19,417 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 2, ebbinghausid = 3, remark = '
+' where id = 8
+2019-12-18 14:58:39,258 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 8
+2019-12-18 14:58:39,259 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 3, ebbinghausid = 3, remark = '
+' where id = 8
+2019-12-18 15:03:01,713 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.922025]ebbinghaus_time[0.500000]
+2019-12-18 15:03:01,713 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.918704]ebbinghaus_time[8.000000]
+2019-12-18 15:03:01,714 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.236759]ebbinghaus_time[0.500000]
+2019-12-18 15:03:01,714 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.235671]ebbinghaus_time[0.500000]
+2019-12-18 15:03:01,714 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.233924]ebbinghaus_time[0.500000]
+2019-12-18 15:03:01,714 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.233796]ebbinghaus_time[0.500000]
+2019-12-18 15:03:01,715 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.219525]ebbinghaus_time[0.500000]
+2019-12-18 15:03:01,715 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.219028]ebbinghaus_time[3.000000]
+2019-12-18 15:03:01,715 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.218426]ebbinghaus_time[90.000000]
+2019-12-18 15:03:01,715 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.005370]ebbinghaus_time[0.500000]
+2019-12-18 15:03:20,453 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 7
+2019-12-18 15:03:20,453 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 5, remark = '
+' where id = 7
+2019-12-18 15:03:27,853 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 6
+2019-12-18 15:03:27,854 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 5, remark = '
+' where id = 6
+2019-12-18 15:03:33,438 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 5
+2019-12-18 15:03:33,439 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 3, remark = '
+' where id = 5
+2019-12-18 15:03:38,471 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 4
+2019-12-18 15:03:38,472 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 8, remark = '
+' where id = 4
+2019-12-18 15:09:18,095 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.926389]ebbinghaus_time[0.500000]
+2019-12-18 15:09:18,095 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.923067]ebbinghaus_time[8.000000]
+2019-12-18 15:09:18,096 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.241123]ebbinghaus_time[0.500000]
+2019-12-18 15:09:18,096 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.240035]ebbinghaus_time[90.000000]
+2019-12-18 15:09:18,096 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.238287]ebbinghaus_time[3.000000]
+2019-12-18 15:09:18,097 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.238160]ebbinghaus_time[8.000000]
+2019-12-18 15:09:18,097 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.223889]ebbinghaus_time[8.000000]
+2019-12-18 15:09:18,097 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.223391]ebbinghaus_time[3.000000]
+2019-12-18 15:09:18,097 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.222789]ebbinghaus_time[90.000000]
+2019-12-18 15:09:18,097 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.009734]ebbinghaus_time[0.500000]
+2019-12-18 15:11:11,208 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.927697]ebbinghaus_time[0.500000]
+2019-12-18 15:11:11,208 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.924375]ebbinghaus_time[8.000000]
+2019-12-18 15:11:11,208 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242431]ebbinghaus_time[0.500000]
+2019-12-18 15:11:11,208 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.241343]ebbinghaus_time[90.000000]
+2019-12-18 15:11:11,208 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.239595]ebbinghaus_time[3.000000]
+2019-12-18 15:11:11,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.239468]ebbinghaus_time[8.000000]
+2019-12-18 15:11:11,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.225197]ebbinghaus_time[8.000000]
+2019-12-18 15:11:11,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.224699]ebbinghaus_time[3.000000]
+2019-12-18 15:11:11,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.224097]ebbinghaus_time[90.000000]
+2019-12-18 15:11:11,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.011042]ebbinghaus_time[0.500000]
+2019-12-18 15:11:17,001 Winframe.py:export_task:209 INFO] ('ID', 'Name', 'Content', 'Time', 'EbbinghausID')
+2019-12-18 15:11:17,002 Winframe.py:export_task:211 INFO] ID
+2019-12-18 15:11:17,002 Winframe.py:export_task:211 INFO] Name
+2019-12-18 15:11:17,003 Winframe.py:export_task:211 INFO] Content
+2019-12-18 15:11:17,004 Winframe.py:export_task:211 INFO] Time
+2019-12-18 15:11:17,004 Winframe.py:export_task:211 INFO] EbbinghausID
+2019-12-18 15:11:17,005 Winframe.py:export_task:216 INFO] content(id=1, name='name1', content='content1', time='2019-12-16 16:55:18', ebbinghausid=1)
+2019-12-18 15:11:17,005 Winframe.py:export_task:218 INFO] 1
+2019-12-18 15:11:17,006 Winframe.py:export_task:218 INFO] name1
+2019-12-18 15:11:17,006 Winframe.py:export_task:218 INFO] content1
+2019-12-18 15:11:17,006 Winframe.py:export_task:218 INFO] 2019-12-16 16:55:18
+2019-12-18 15:11:17,007 Winframe.py:export_task:218 INFO] 1
+2019-12-18 15:11:17,007 Winframe.py:export_task:216 INFO] content(id=3, name='name2', content='content2', time='2019-12-17 09:22:05', ebbinghausid=1)
+2019-12-18 15:11:17,007 Winframe.py:export_task:218 INFO] 3
+2019-12-18 15:11:17,008 Winframe.py:export_task:218 INFO] name2
+2019-12-18 15:11:17,008 Winframe.py:export_task:218 INFO] content2
+2019-12-18 15:11:17,008 Winframe.py:export_task:218 INFO] 2019-12-17 09:22:05
+2019-12-18 15:11:17,009 Winframe.py:export_task:218 INFO] 1
+2019-12-18 15:14:27,951 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.929965]ebbinghaus_time[0.500000]
+2019-12-18 15:14:27,952 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.926644]ebbinghaus_time[8.000000]
+2019-12-18 15:14:27,952 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.244699]ebbinghaus_time[0.500000]
+2019-12-18 15:14:27,952 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.243611]ebbinghaus_time[90.000000]
+2019-12-18 15:14:27,952 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.241863]ebbinghaus_time[3.000000]
+2019-12-18 15:14:27,952 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.241736]ebbinghaus_time[8.000000]
+2019-12-18 15:14:27,953 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227465]ebbinghaus_time[8.000000]
+2019-12-18 15:14:27,953 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.226968]ebbinghaus_time[3.000000]
+2019-12-18 15:14:27,953 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.226366]ebbinghaus_time[90.000000]
+2019-12-18 15:14:27,953 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.013310]ebbinghaus_time[0.500000]
+2019-12-18 15:15:10,031 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.930463]ebbinghaus_time[0.500000]
+2019-12-18 15:15:10,031 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.927141]ebbinghaus_time[8.000000]
+2019-12-18 15:15:10,031 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.245197]ebbinghaus_time[0.500000]
+2019-12-18 15:15:10,031 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.244109]ebbinghaus_time[90.000000]
+2019-12-18 15:15:10,031 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242361]ebbinghaus_time[3.000000]
+2019-12-18 15:15:10,032 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242234]ebbinghaus_time[8.000000]
+2019-12-18 15:15:10,032 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227963]ebbinghaus_time[8.000000]
+2019-12-18 15:15:10,032 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227465]ebbinghaus_time[3.000000]
+2019-12-18 15:15:10,032 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.226863]ebbinghaus_time[90.000000]
+2019-12-18 15:15:10,032 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.013808]ebbinghaus_time[0.500000]
+2019-12-18 15:15:51,611 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.930937]ebbinghaus_time[0.500000]
+2019-12-18 15:15:51,611 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.927616]ebbinghaus_time[8.000000]
+2019-12-18 15:15:51,611 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.245671]ebbinghaus_time[0.500000]
+2019-12-18 15:15:51,611 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.244583]ebbinghaus_time[90.000000]
+2019-12-18 15:15:51,611 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242836]ebbinghaus_time[3.000000]
+2019-12-18 15:15:51,612 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242708]ebbinghaus_time[8.000000]
+2019-12-18 15:15:51,612 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.228438]ebbinghaus_time[8.000000]
+2019-12-18 15:15:51,612 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227940]ebbinghaus_time[3.000000]
+2019-12-18 15:15:51,613 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227338]ebbinghaus_time[90.000000]
+2019-12-18 15:15:51,613 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.014282]ebbinghaus_time[0.500000]
+2019-12-18 15:16:05,358 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.931100]ebbinghaus_time[0.500000]
+2019-12-18 15:16:05,358 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.927778]ebbinghaus_time[8.000000]
+2019-12-18 15:16:05,358 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.245833]ebbinghaus_time[0.500000]
+2019-12-18 15:16:05,358 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.244745]ebbinghaus_time[90.000000]
+2019-12-18 15:16:05,359 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242998]ebbinghaus_time[3.000000]
+2019-12-18 15:16:05,359 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.242870]ebbinghaus_time[8.000000]
+2019-12-18 15:16:05,359 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.228600]ebbinghaus_time[8.000000]
+2019-12-18 15:16:05,359 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.228102]ebbinghaus_time[3.000000]
+2019-12-18 15:16:05,359 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.227500]ebbinghaus_time[90.000000]
+2019-12-18 15:16:05,360 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.014444]ebbinghaus_time[0.500000]
+2019-12-18 15:17:41,040 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.932211]ebbinghaus_time[0.500000]
+2019-12-18 15:17:41,041 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.928889]ebbinghaus_time[8.000000]
+2019-12-18 15:17:41,041 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.246944]ebbinghaus_time[0.500000]
+2019-12-18 15:17:41,041 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.245856]ebbinghaus_time[90.000000]
+2019-12-18 15:17:41,042 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.244109]ebbinghaus_time[3.000000]
+2019-12-18 15:17:41,042 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.243981]ebbinghaus_time[8.000000]
+2019-12-18 15:17:41,042 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.229711]ebbinghaus_time[8.000000]
+2019-12-18 15:17:41,043 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.229213]ebbinghaus_time[3.000000]
+2019-12-18 15:17:41,043 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.228611]ebbinghaus_time[90.000000]
+2019-12-18 15:17:41,043 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.015556]ebbinghaus_time[0.500000]
+2019-12-18 23:24:02,742 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.070174]ebbinghaus_time[0.500000]
+2019-12-18 23:24:02,745 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.067697]ebbinghaus_time[0.500000]
+2019-12-18 23:26:52,871 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072141]ebbinghaus_time[0.500000]
+2019-12-18 23:26:52,871 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.069664]ebbinghaus_time[0.500000]
+2019-12-18 23:27:18,556 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072442]ebbinghaus_time[0.500000]
+2019-12-18 23:27:18,556 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.069965]ebbinghaus_time[0.500000]
+2019-12-18 23:27:28,101 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072558]ebbinghaus_time[0.500000]
+2019-12-18 23:27:28,101 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.070081]ebbinghaus_time[0.500000]
+2019-12-18 23:27:41,821 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072708]ebbinghaus_time[0.500000]
+2019-12-18 23:27:41,824 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.070231]ebbinghaus_time[0.500000]
+2019-12-18 23:27:51,594 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072824]ebbinghaus_time[0.500000]
+2019-12-18 23:27:51,594 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.070347]ebbinghaus_time[0.500000]
+2019-12-18 23:28:05,011 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072986]ebbinghaus_time[0.500000]
+2019-12-18 23:28:05,011 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.070509]ebbinghaus_time[0.500000]
+2019-12-18 23:30:36,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.074734]ebbinghaus_time[0.500000]
+2019-12-18 23:30:36,209 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.072257]ebbinghaus_time[0.500000]
+2019-12-18 23:33:13,592 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.076551]ebbinghaus_time[0.500000]
+2019-12-18 23:33:13,592 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.074074]ebbinghaus_time[0.500000]
+2019-12-18 23:33:59,750 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.077083]ebbinghaus_time[0.500000]
+2019-12-18 23:33:59,750 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.074606]ebbinghaus_time[0.500000]
+2019-12-18 23:34:50,210 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.077674]ebbinghaus_time[0.500000]
+2019-12-18 23:34:50,210 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.075197]ebbinghaus_time[0.500000]
+2019-12-18 23:38:49,790 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.080440]ebbinghaus_time[0.500000]
+2019-12-18 23:38:49,790 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.077963]ebbinghaus_time[0.500000]
+2019-12-18 23:38:49,890 Winframe.py:center_window:239 INFO] 500x220+433+274
+2019-12-18 23:39:24,023 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.080845]ebbinghaus_time[0.500000]
+2019-12-18 23:39:24,023 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.078368]ebbinghaus_time[0.500000]
+2019-12-18 23:39:24,118 Winframe.py:center_window:239 INFO] 500x220+433+182
+2019-12-18 23:39:32,033 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.080937]ebbinghaus_time[0.500000]
+2019-12-18 23:39:32,033 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.078461]ebbinghaus_time[0.500000]
+2019-12-18 23:39:32,128 Winframe.py:center_window:239 INFO] 500x220+433+137
+2019-12-18 23:39:47,182 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.081111]ebbinghaus_time[0.500000]
+2019-12-18 23:39:47,182 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.078634]ebbinghaus_time[0.500000]
+2019-12-18 23:39:47,297 Winframe.py:center_window:239 INFO] 500x220+433+182
+2019-12-18 23:41:49,740 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.082523]ebbinghaus_time[0.500000]
+2019-12-18 23:41:49,740 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.080046]ebbinghaus_time[0.500000]
+2019-12-18 23:41:49,843 Winframe.py:center_window:239 INFO] 500x220+433+182
+2019-12-19 12:32:33,977 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.617755]ebbinghaus_time[0.500000]
+2019-12-19 12:32:33,977 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.615278]ebbinghaus_time[0.500000]
+2019-12-19 12:32:34,127 Winframe.py:center_window:244 INFO] 500x220+433+182
+2019-12-19 12:34:28,259 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.619086]ebbinghaus_time[0.500000]
+2019-12-19 12:34:28,260 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.616609]ebbinghaus_time[0.500000]
+2019-12-19 12:34:28,347 Winframe.py:center_window:245 INFO] 500x220+433+182
+2019-12-19 12:34:46,920 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.619294]ebbinghaus_time[0.500000]
+2019-12-19 12:34:46,920 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.616817]ebbinghaus_time[0.500000]
+2019-12-19 12:34:47,003 Winframe.py:center_window:245 INFO] 500x220+433+182
+2019-12-19 12:35:00,207 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.619456]ebbinghaus_time[0.500000]
+2019-12-19 12:35:00,207 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.616979]ebbinghaus_time[0.500000]
+2019-12-19 12:35:00,299 Winframe.py:center_window:245 INFO] 500x220+433+182
+2019-12-19 12:35:11,169 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.619583]ebbinghaus_time[0.500000]
+2019-12-19 12:35:11,169 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.617106]ebbinghaus_time[0.500000]
+2019-12-19 12:35:11,257 Winframe.py:center_window:245 INFO] 500x220+433+182
+2019-12-19 12:35:20,488 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.619687]ebbinghaus_time[0.500000]
+2019-12-19 12:35:20,489 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.617211]ebbinghaus_time[0.500000]
+2019-12-19 12:35:20,577 Winframe.py:center_window:245 INFO] 500x220+433+182
+2019-12-19 12:35:34,673 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.619850]ebbinghaus_time[0.500000]
+2019-12-19 12:35:34,674 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.617373]ebbinghaus_time[0.500000]
+2019-12-19 12:35:34,766 Winframe.py:center_window:245 INFO] 500x220+433+182
+2019-12-19 12:49:02,598 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.629201]ebbinghaus_time[0.500000]
+2019-12-19 12:49:02,598 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.626725]ebbinghaus_time[0.500000]
+2019-12-19 12:49:02,688 Winframe.py:center_window:255 INFO] 500x220+433+182
+2019-12-19 13:39:24,730 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.664178]ebbinghaus_time[0.500000]
+2019-12-19 13:39:24,730 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.661701]ebbinghaus_time[0.500000]
+2019-12-19 13:39:24,820 Winframe.py:center_window:255 INFO] 500x220+433+182
+2019-12-19 13:44:11,207 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.667500]ebbinghaus_time[0.500000]
+2019-12-19 13:44:11,207 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.665023]ebbinghaus_time[0.500000]
+2019-12-19 13:44:11,305 Winframe.py:center_window:255 INFO] 500x220+433+182
+2019-12-19 13:44:35,710 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.667778]ebbinghaus_time[0.500000]
+2019-12-19 13:44:35,710 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.665301]ebbinghaus_time[0.500000]
+2019-12-19 13:44:35,803 Winframe.py:center_window:255 INFO] 500x220+433+182
+2019-12-19 13:46:18,316 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.668970]ebbinghaus_time[0.500000]
+2019-12-19 13:46:18,316 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.666493]ebbinghaus_time[0.500000]
+2019-12-19 13:46:18,400 Winframe.py:center_window:255 INFO] 500x220+433+182
+2019-12-19 13:46:56,246 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.669410]ebbinghaus_time[0.500000]
+2019-12-19 13:46:56,246 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.666933]ebbinghaus_time[0.500000]
+2019-12-19 13:46:56,335 Winframe.py:center_window:255 INFO] 500x220+433+182
+2019-12-19 20:07:18,873 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.933553]ebbinghaus_time[0.500000]
+2019-12-19 20:07:18,873 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.931076]ebbinghaus_time[0.500000]
+2019-12-19 20:09:02,025 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.934757]ebbinghaus_time[0.500000]
+2019-12-19 20:09:02,025 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.932280]ebbinghaus_time[0.500000]
+2019-12-19 20:09:08,443 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 2
+2019-12-19 20:09:08,443 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 5, remark = '
+' where id = 2
+2019-12-19 20:09:35,223 Ebbinghaus.py:update_today_task:123 INFO] select times from items where id = 1
+2019-12-19 20:09:35,223 Ebbinghaus.py:update_today_task:130 INFO] update items set times = 1, ebbinghausid = 2, remark = '
+' where id = 1
+2019-12-19 20:50:40,714 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[0.963669]ebbinghaus_time[1.000000]
+2019-12-19 20:50:40,715 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[0.961192]ebbinghaus_time[8.000000]
+2019-12-19 20:50:40,715 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[0.026157]ebbinghaus_time[0.500000]
+2019-12-19 20:50:44,084 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[0.963715]ebbinghaus_time[1.000000]
+2019-12-19 20:50:44,084 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[0.961238]ebbinghaus_time[8.000000]
+2019-12-19 20:50:44,085 Ebbinghaus.py:today_to_do_list:71 INFO] interval_time[0.026204]ebbinghaus_time[0.500000]
+2019-12-19 20:52:12,110 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.964734]ebbinghaus_time[1.000000]
+2019-12-19 20:52:12,110 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.962257]ebbinghaus_time[8.000000]
+2019-12-19 20:52:12,111 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.027222]ebbinghaus_time[0.500000]
+2019-12-19 20:53:34,925 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.965683]ebbinghaus_time[1.000000]
+2019-12-19 20:53:34,926 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.963206]ebbinghaus_time[8.000000]
+2019-12-19 20:53:34,926 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.028171]ebbinghaus_time[0.500000]
+2019-12-19 20:54:35,796 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.966389]ebbinghaus_time[1.000000]
+2019-12-19 20:54:35,796 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.963912]ebbinghaus_time[8.000000]
+2019-12-19 20:54:35,797 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.028877]ebbinghaus_time[0.500000]
+2019-12-19 20:56:16,118 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.967558]ebbinghaus_time[1.000000]
+2019-12-19 20:56:16,119 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.965081]ebbinghaus_time[8.000000]
+2019-12-19 20:56:16,119 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.030046]ebbinghaus_time[0.500000]
+2019-12-19 23:26:52,377 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.072141]ebbinghaus_time[1.000000]
+2019-12-19 23:26:52,377 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.069664]ebbinghaus_time[8.000000]
+2019-12-19 23:26:52,380 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.134630]ebbinghaus_time[0.500000]
+2019-12-19 23:26:52,380 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.104213]ebbinghaus_time[0.500000]
