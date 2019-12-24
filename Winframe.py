@@ -21,6 +21,66 @@ from Ebbinghaus import Ebbinghaus
 photo = None
 
 
+def update_item(winframe, sub_frame,item_id, name, content, remark):
+    winframe.algo_eb.update_item(item_id, name, content, remark)
+    sub_frame.destroy()
+
+
+def tree_click(event, tree, winframe):
+    sub_frame = Tk()
+    sub_frame.title("Modify Item")  # 设置窗口名字
+    screenwidth = sub_frame.winfo_screenwidth()
+    screenheight = sub_frame.winfo_screenheight()
+    size = '%dx%d+%d+%d' % (500, 220, (screenwidth - 500) / 2, (screenheight - 220) / 3)
+    sub_frame.geometry(size)
+
+    for item in tree.selection():
+        item_text = tree.item(item, "values")
+        print(item_text[2])  # 输出所选行的第一列的值
+
+    box_frame = Frame(sub_frame)
+    box_frame.pack(side=TOP, fill=BOTH, expand=NO)
+
+    # Name标签
+    text_label_name = Label(box_frame, text='Task Name:')
+    text_label_name.grid(row=0, column=0)
+
+    # 输入框
+    logger.info(item_text[1])
+    input_box = Entry(box_frame, show=None, font=('Arial', 9), width=50)
+    input_box.insert(END, item_text[1])
+    input_box.grid(row=0, column=1)
+
+    # Content标签
+    text_label_content = Label(box_frame, text='Task Content:')
+    text_label_content.grid(row=1, column=0)
+
+    # 文本框
+    text_box = Text(box_frame, width=50, height=5, font=('Arial', 9))
+    text_box.insert(INSERT, item_text[3])
+    text_box.grid(row=1, column=1)
+
+    # Content标签
+    remark_label_content = Label(box_frame, text='Remark:')
+    remark_label_content.grid(row=2, column=0)
+
+    remark_box = Text(box_frame, width=50, height=5, font=('Arial', 9))
+    remark_box.insert(INSERT, item_text[4])
+    remark_box.grid(row=2, column=1)
+
+    # 新建button_frame
+    button_frame = Frame(sub_frame)
+    button_frame.pack(side=TOP, expand=NO)
+
+    # 按钮
+    button_box_r = Button(button_frame, text='Save', width=5, height=1,
+                          command=lambda: update_item(winframe, sub_frame, item_text[0], input_box.get(),
+                                                      text_box.get(1.0, END), remark_box.get(1.0, END)))
+    button_box_r.grid(row=0, column=1)
+
+    sub_frame.mainloop()
+
+
 class WinFrame(object):
     def __init__(self):
         self.algo_eb = Ebbinghaus()
@@ -33,6 +93,11 @@ class WinFrame(object):
         self.set_menu()
 
     def draw_menu(self, line_frame):
+        """
+        在菜单下面画线
+        :param line_frame:
+        :return:
+        """
         can = Canvas(line_frame, width=400, height=450)
         can.pack()
         can.create_line((0, 25), (500, 25), width=1)
@@ -53,9 +118,10 @@ class WinFrame(object):
 
         file_menu = Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label='File', menu=file_menu)
-        file_menu.add_command(label='insert', command=self.register_task)
+        file_menu.add_command(label='Insert', command=self.register_task)
         file_menu.add_command(label='Task', command=self.show_task)
         file_menu.add_command(label='List', command=self.list_task)
+        file_menu.add_command(label='All', command=self.show_all)
         file_menu.add_command(label='Export', command=self.export_task)
 
         self.win_frame.config(menu=menu_bar)
@@ -63,13 +129,8 @@ class WinFrame(object):
     def register_task(self):
         # 清空界面
         self.destroy_frame()
+
         # 新建frame_box
-
-        # line_frame = Frame(self.win_frame)
-        # self.frame_list.append(line_frame)
-        # line_frame.pack(side=TOP, fill=BOTH, expand=NO)
-        # self.draw_menu(line_frame)
-
         box_frame = Frame(self.win_frame)
         self.frame_list.append(box_frame)
         box_frame.pack(side=TOP, fill=BOTH, expand=NO)
@@ -79,8 +140,9 @@ class WinFrame(object):
         text_label_name.grid(row=0, column=0)
 
         # 输入框
-        input_box = Entry(box_frame, show=None, font=('Arial', 9), width=50)
-        input_box.grid(row=0, column=1)
+        combox_list = ttk.Combobox(box_frame, width=48)
+        combox_list['values'] = self.algo_eb.get_item_name()
+        combox_list.grid(row=0, column=1)
 
         # Content标签
         text_label_content = Label(box_frame, text='Task Content:')
@@ -104,7 +166,7 @@ class WinFrame(object):
 
         # 按钮
         button_box_r = Button(button_frame, text='Save', width=5, height=1,
-                              command=lambda: self.insert_task(input_box, text_box, remark_box))
+                              command=lambda: self.insert_task(combox_list, text_box, remark_box))
         button_box_r.grid(row=0, column=1)
 
     def show_task(self):
@@ -115,11 +177,6 @@ class WinFrame(object):
         else:
             tkinter.messagebox.showinfo('Message', 'Task is Empty!')
             return
-
-        # line_frame = Frame(self.win_frame)
-        # self.frame_list.append(line_frame)
-        # line_frame.pack(side=TOP, fill=BOTH, expand=NO)
-        # self.draw_menu(line_frame)
 
         # 新建frame_box
         box_frame = Frame(self.win_frame)
@@ -208,11 +265,54 @@ class WinFrame(object):
 
         tree_view.pack()
 
-    def insert_task(self, input_box, text_box, remark_box):
-        self.algo_eb.register_today_task(input_box.get(), text_box.get(1.0, END), remark_box.get(1.0, END))
-        input_box.delete(0, END)
+    def insert_task(self, combox_list, text_box, remark_box):
+        self.algo_eb.register_today_task(combox_list.get(), text_box.get(1.0, END), remark_box.get(1.0, END))
+        # combox_list.delete(0, END)
         text_box.delete(1.0, END)
         remark_box.delete(1.0, END)
+
+    def show_all(self):
+        self.destroy_frame()
+        if len(self.items) == 0:
+            tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
+            return
+        table_frame = Frame(self.win_frame)
+        table_frame.pack()
+        self.frame_list.append(table_frame)
+        columns = ("ID", "Name", "Time", "Content", "Remark", "Times", "Ebbinghuasid", "Status", "Update Time")
+        tree_view = ttk.Treeview(table_frame, show="headings", height=45, columns=columns)
+
+        tree_view.heading("ID", text="ID")
+        tree_view.heading("Name", text="Name")
+        tree_view.heading("Time", text="Time")
+        tree_view.heading("Content", text="Content")
+        tree_view.heading("Remark", text="Remark")
+        tree_view.heading("Times", text="Times")
+        tree_view.heading("Ebbinghuasid", text="Ebbinghuasid")
+        tree_view.heading("Status", text="Status")
+        tree_view.heading("Update Time", text="Update Time")
+
+        tree_view.column("ID", width=100)
+        tree_view.column("Name", width=100)
+        tree_view.column("Time", width=100)
+        tree_view.column("Content", width=100)
+        tree_view.column("Remark", width=100)
+        tree_view.column("Times", width=100)
+        tree_view.column("Ebbinghuasid", width=100)
+        tree_view.column("Status", width=100)
+        tree_view.column("Update Time", width=100)
+
+        for ele in self.algo_eb.list_all():
+            tree_view.insert("", 0, values=ele)
+
+        tree_view.bind('<Double-Button-1>', lambda event: tree_click(event, tree_view, self))
+
+        # 设置滚动条
+        scroll_bar = tkinter.Scrollbar(table_frame)
+        scroll_bar.pack(side=tkinter.RIGHT, fill=tkinter.Y)
+        scroll_bar.config(command=tree_view.yview)
+
+        tree_view.pack()
 
     def export_task(self):
         book = xlwt.Workbook()

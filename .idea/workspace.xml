@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c168a34-7c0b-4523-8de3-544918d7798c" name="Default Changelist" comment="" />
+    <list default="true" id="6c168a34-7c0b-4523-8de3-544918d7798c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HttpServer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebbinghaus.db" beforeDir="false" afterPath="$PROJECT_DIR$/Ebbinghaus.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebbinghaus.log" beforeDir="false" afterPath="$PROJECT_DIR$/Ebbinghaus.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebbinghaus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Ebbinghaus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Winframe.py" beforeDir="false" afterPath="$PROJECT_DIR$/Winframe.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ebbinghaus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+            <state relative-caret-position="4209">
+              <caret line="204" column="26" lean-forward="true" selection-start-line="204" selection-start-column="26" selection-end-line="204" selection-end-column="26" />
               <folding>
                 <element signature="e#90#103#0" expanded="true" />
               </folding>
@@ -23,12 +30,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HttpServer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Winframe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4646">
-              <caret line="211" selection-start-line="211" selection-end-line="211" />
+            <state relative-caret-position="76">
+              <caret line="296" column="43" lean-forward="true" selection-start-line="296" selection-start-column="43" selection-end-line="296" selection-end-column="43" />
               <folding>
                 <element signature="e#86#107#0" expanded="true" />
+                <element signature="e#3238#5925#0" />
+                <element signature="e#5960#7027#0" />
+                <element signature="e#7097#7299#0" />
               </folding>
             </state>
           </provider>
@@ -73,14 +92,15 @@
         <option value="D:/SVN/offline/PyMockServer/PyMockServer/main.py" />
         <option value="$PROJECT_DIR$/log.py" />
         <option value="$PROJECT_DIR$/Dbconn.py" />
-        <option value="$PROJECT_DIR$/Winframe.py" />
+        <option value="$PROJECT_DIR$/HttpServer.py" />
         <option value="$PROJECT_DIR$/Ebbinghaus.py" />
+        <option value="$PROJECT_DIR$/Winframe.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="36" />
-    <option name="y" value="3" />
+    <option name="x" value="162" />
+    <option name="y" value="22" />
     <option name="width" value="1386" />
     <option name="height" value="728" />
   </component>
@@ -105,8 +125,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -268,6 +289,9 @@
       <workItem from="1576729679067" duration="4076000" />
       <workItem from="1576757234832" duration="2228000" />
       <workItem from="1576769198500" duration="283000" />
+      <workItem from="1576833109169" duration="1153000" />
+      <workItem from="1577062357598" duration="1845000" />
+      <workItem from="1577116506423" duration="16029000" />
     </task>
     <servers />
   </component>
@@ -298,18 +322,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55343000" />
+    <option name="totallyTimeSpent" value="74370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15960665" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45171848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21440262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,8 +358,8 @@
     <SUITE FILE_PATH="coverage/Ebbinghaus$Dbconn.coverage" NAME="Dbconn Coverage Results" MODIFIED="1576458640485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ebbinghaus$Doctests_in_Ebbinghaus.coverage" NAME="Doctests in Ebbinghaus Coverage Results" MODIFIED="1576486372406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Ebbinghaus$Doctests_in_Ebbinghaus__1_.coverage" NAME="Doctests in Ebbinghaus (1) Coverage Results" MODIFIED="1576485696528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ebbinghaus$Winframe.coverage" NAME="Winframe Coverage Results" MODIFIED="1576769210435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Ebbinghaus$Ebbinghaus.coverage" NAME="Ebbinghaus Coverage Results" MODIFIED="1576561150702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ebbinghaus$Winframe.coverage" NAME="Winframe Coverage Results" MODIFIED="1577174169649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Ebbinghaus$Ebbinghaus.coverage" NAME="Ebbinghaus Coverage Results" MODIFIED="1577152208531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://D:/SVN/offline/PyMockServer/PyMockServer/main.py" />
@@ -374,26 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebbinghaus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
-          <folding>
-            <element signature="e#90#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Winframe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4646">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
-          <folding>
-            <element signature="e#86#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -407,6 +411,36 @@
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#76#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebbinghaus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4209">
+          <caret line="204" column="26" lean-forward="true" selection-start-line="204" selection-start-column="26" selection-end-line="204" selection-end-column="26" />
+          <folding>
+            <element signature="e#90#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Winframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="296" column="43" lean-forward="true" selection-start-line="296" selection-start-column="43" selection-end-line="296" selection-end-column="43" />
+          <folding>
+            <element signature="e#86#107#0" expanded="true" />
+            <element signature="e#3238#5925#0" />
+            <element signature="e#5960#7027#0" />
+            <element signature="e#7097#7299#0" />
           </folding>
         </state>
       </provider>

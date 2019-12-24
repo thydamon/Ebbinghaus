@@ -726,3 +726,308 @@
 2019-12-19 23:26:52,377 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[1.069664]ebbinghaus_time[8.000000]
 2019-12-19 23:26:52,380 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.134630]ebbinghaus_time[0.500000]
 2019-12-19 23:26:52,380 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[0.104213]ebbinghaus_time[0.500000]
+2019-12-23 23:55:14,631 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[5.091840]ebbinghaus_time[1.000000]
+2019-12-23 23:55:14,633 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[5.089363]ebbinghaus_time[8.000000]
+2019-12-23 23:55:14,633 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[4.154329]ebbinghaus_time[0.500000]
+2019-12-23 23:55:14,634 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[4.123912]ebbinghaus_time[0.500000]
+2019-12-23 23:55:14,634 Ebbinghaus.py:today_to_do_list:70 INFO] interval_time[4.018970]ebbinghaus_time[0.500000]
+2019-12-24 09:14:07,132 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.479954]ebbinghaus_time[1.000000]
+2019-12-24 09:14:07,133 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.477477]ebbinghaus_time[8.000000]
+2019-12-24 09:14:07,133 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.542442]ebbinghaus_time[0.500000]
+2019-12-24 09:14:07,133 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.512025]ebbinghaus_time[0.500000]
+2019-12-24 09:14:07,133 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.407083]ebbinghaus_time[0.500000]
+2019-12-24 09:14:07,134 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.385567]ebbinghaus_time[0.500000]
+2019-12-24 09:14:29,210 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.480208]ebbinghaus_time[1.000000]
+2019-12-24 09:14:29,210 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.477731]ebbinghaus_time[8.000000]
+2019-12-24 09:14:29,210 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.542697]ebbinghaus_time[0.500000]
+2019-12-24 09:14:29,210 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.512280]ebbinghaus_time[0.500000]
+2019-12-24 09:14:29,211 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.407338]ebbinghaus_time[0.500000]
+2019-12-24 09:14:29,211 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.385822]ebbinghaus_time[0.500000]
+2019-12-24 09:14:43,171 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.480370]ebbinghaus_time[1.000000]
+2019-12-24 09:14:43,171 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.477894]ebbinghaus_time[8.000000]
+2019-12-24 09:14:43,172 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.542859]ebbinghaus_time[0.500000]
+2019-12-24 09:14:43,172 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.512442]ebbinghaus_time[0.500000]
+2019-12-24 09:14:43,172 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.407500]ebbinghaus_time[0.500000]
+2019-12-24 09:14:43,172 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.385984]ebbinghaus_time[0.500000]
+2019-12-24 09:15:04,042 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.480613]ebbinghaus_time[1.000000]
+2019-12-24 09:15:04,042 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.478137]ebbinghaus_time[8.000000]
+2019-12-24 09:15:04,042 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.543102]ebbinghaus_time[0.500000]
+2019-12-24 09:15:04,043 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.512685]ebbinghaus_time[0.500000]
+2019-12-24 09:15:04,043 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.407743]ebbinghaus_time[0.500000]
+2019-12-24 09:15:04,044 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.386227]ebbinghaus_time[0.500000]
+2019-12-24 09:15:12,914 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.480706]ebbinghaus_time[1.000000]
+2019-12-24 09:15:12,914 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.478229]ebbinghaus_time[8.000000]
+2019-12-24 09:15:12,914 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.543194]ebbinghaus_time[0.500000]
+2019-12-24 09:15:12,914 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.512778]ebbinghaus_time[0.500000]
+2019-12-24 09:15:12,915 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.407836]ebbinghaus_time[0.500000]
+2019-12-24 09:15:12,915 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.386319]ebbinghaus_time[0.500000]
+2019-12-24 09:29:23,835 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 09:29:23,835 Ebbinghaus.py:<module>:191 INFO] **************************************************
+2019-12-24 09:29:36,951 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 09:29:36,951 Ebbinghaus.py:<module>:191 INFO] **************************************************
+2019-12-24 09:32:10,954 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 09:32:10,954 Ebbinghaus.py:<module>:195 INFO] **************************************************
+2019-12-24 09:32:27,791 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 09:32:27,792 Ebbinghaus.py:<module>:195 INFO] **************************************************
+2019-12-24 09:33:17,605 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 09:33:17,605 Ebbinghaus.py:<module>:195 INFO] **************************************************
+2019-12-24 09:33:26,639 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.493368]ebbinghaus_time[1.000000]
+2019-12-24 09:33:26,639 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.490891]ebbinghaus_time[8.000000]
+2019-12-24 09:33:26,640 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.555856]ebbinghaus_time[0.500000]
+2019-12-24 09:33:26,640 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.525440]ebbinghaus_time[0.500000]
+2019-12-24 09:33:26,641 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.420498]ebbinghaus_time[0.500000]
+2019-12-24 09:33:26,641 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.398981]ebbinghaus_time[0.500000]
+2019-12-24 09:33:28,195 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 09:35:17,430 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items
+2019-12-24 09:35:17,430 Ebbinghaus.py:<module>:203 INFO] **************************************************
+2019-12-24 09:44:43,846 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items
+2019-12-24 09:44:43,847 Ebbinghaus.py:<module>:211 INFO] **************************************************
+2019-12-24 09:50:08,759 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items
+2019-12-24 09:50:08,760 Ebbinghaus.py:<module>:211 INFO] **************************************************
+2019-12-24 09:50:12,076 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.505012]ebbinghaus_time[1.000000]
+2019-12-24 09:50:12,076 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.502535]ebbinghaus_time[8.000000]
+2019-12-24 09:50:12,076 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.567500]ebbinghaus_time[0.500000]
+2019-12-24 09:50:12,077 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.537083]ebbinghaus_time[0.500000]
+2019-12-24 09:50:12,077 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.432141]ebbinghaus_time[0.500000]
+2019-12-24 09:50:12,077 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.410625]ebbinghaus_time[0.500000]
+2019-12-24 09:50:41,886 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.505347]ebbinghaus_time[1.000000]
+2019-12-24 09:50:41,886 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.502870]ebbinghaus_time[8.000000]
+2019-12-24 09:50:41,887 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.567836]ebbinghaus_time[0.500000]
+2019-12-24 09:50:41,887 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.537419]ebbinghaus_time[0.500000]
+2019-12-24 09:50:41,887 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.432477]ebbinghaus_time[0.500000]
+2019-12-24 09:50:41,887 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.410961]ebbinghaus_time[0.500000]
+2019-12-24 09:50:52,051 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.505475]ebbinghaus_time[1.000000]
+2019-12-24 09:50:52,051 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.502998]ebbinghaus_time[8.000000]
+2019-12-24 09:50:52,051 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.567963]ebbinghaus_time[0.500000]
+2019-12-24 09:50:52,052 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.537546]ebbinghaus_time[0.500000]
+2019-12-24 09:50:52,052 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.432604]ebbinghaus_time[0.500000]
+2019-12-24 09:50:52,052 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.411088]ebbinghaus_time[0.500000]
+2019-12-24 09:51:01,718 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.505579]ebbinghaus_time[1.000000]
+2019-12-24 09:51:01,719 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.503102]ebbinghaus_time[8.000000]
+2019-12-24 09:51:01,719 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.568067]ebbinghaus_time[0.500000]
+2019-12-24 09:51:01,719 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.537650]ebbinghaus_time[0.500000]
+2019-12-24 09:51:01,720 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.432708]ebbinghaus_time[0.500000]
+2019-12-24 09:51:01,720 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.411192]ebbinghaus_time[0.500000]
+2019-12-24 09:52:48,942 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.506817]ebbinghaus_time[1.000000]
+2019-12-24 09:52:48,942 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.504340]ebbinghaus_time[8.000000]
+2019-12-24 09:52:48,943 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.569306]ebbinghaus_time[0.500000]
+2019-12-24 09:52:48,943 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.538889]ebbinghaus_time[0.500000]
+2019-12-24 09:52:48,943 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.433947]ebbinghaus_time[0.500000]
+2019-12-24 09:52:48,943 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.412431]ebbinghaus_time[0.500000]
+2019-12-24 09:53:29,558 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.507292]ebbinghaus_time[1.000000]
+2019-12-24 09:53:29,558 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.504815]ebbinghaus_time[8.000000]
+2019-12-24 09:53:29,559 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.569780]ebbinghaus_time[0.500000]
+2019-12-24 09:53:29,559 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.539363]ebbinghaus_time[0.500000]
+2019-12-24 09:53:29,559 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.434421]ebbinghaus_time[0.500000]
+2019-12-24 09:53:29,559 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.412905]ebbinghaus_time[0.500000]
+2019-12-24 09:53:31,680 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 11:05:54,016 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.557581]ebbinghaus_time[1.000000]
+2019-12-24 11:05:54,017 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.555104]ebbinghaus_time[8.000000]
+2019-12-24 11:05:54,017 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.620069]ebbinghaus_time[0.500000]
+2019-12-24 11:05:54,017 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.589653]ebbinghaus_time[0.500000]
+2019-12-24 11:05:54,017 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.484711]ebbinghaus_time[0.500000]
+2019-12-24 11:05:54,017 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.463194]ebbinghaus_time[0.500000]
+2019-12-24 11:05:57,583 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 11:17:10,048 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.565405]ebbinghaus_time[1.000000]
+2019-12-24 11:17:10,049 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.562928]ebbinghaus_time[8.000000]
+2019-12-24 11:17:10,049 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.627894]ebbinghaus_time[0.500000]
+2019-12-24 11:17:10,049 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.597477]ebbinghaus_time[0.500000]
+2019-12-24 11:17:10,049 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.492535]ebbinghaus_time[0.500000]
+2019-12-24 11:17:10,049 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.471019]ebbinghaus_time[0.500000]
+2019-12-24 11:17:13,970 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 11:18:35,641 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 11:20:42,181 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.567859]ebbinghaus_time[1.000000]
+2019-12-24 11:20:42,181 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.565382]ebbinghaus_time[8.000000]
+2019-12-24 11:20:42,182 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.630347]ebbinghaus_time[0.500000]
+2019-12-24 11:20:42,182 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.599931]ebbinghaus_time[0.500000]
+2019-12-24 11:20:42,182 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.494988]ebbinghaus_time[0.500000]
+2019-12-24 11:20:42,182 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.473472]ebbinghaus_time[0.500000]
+2019-12-24 11:20:42,183 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.001748]ebbinghaus_time[0.500000]
+2019-12-24 11:20:43,897 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 11:23:35,783 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.569861]ebbinghaus_time[1.000000]
+2019-12-24 11:23:35,784 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.567384]ebbinghaus_time[8.000000]
+2019-12-24 11:23:35,784 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.632350]ebbinghaus_time[0.500000]
+2019-12-24 11:23:35,784 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.601933]ebbinghaus_time[0.500000]
+2019-12-24 11:23:35,784 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.496991]ebbinghaus_time[0.500000]
+2019-12-24 11:23:35,785 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.475475]ebbinghaus_time[0.500000]
+2019-12-24 11:23:35,785 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.003750]ebbinghaus_time[0.500000]
+2019-12-24 11:23:37,756 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 11:24:41,833 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.570625]ebbinghaus_time[1.000000]
+2019-12-24 11:24:41,833 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.568148]ebbinghaus_time[8.000000]
+2019-12-24 11:24:41,834 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.633113]ebbinghaus_time[0.500000]
+2019-12-24 11:24:41,834 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.602697]ebbinghaus_time[0.500000]
+2019-12-24 11:24:41,834 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.497755]ebbinghaus_time[0.500000]
+2019-12-24 11:24:41,834 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.476238]ebbinghaus_time[0.500000]
+2019-12-24 11:24:41,835 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.004514]ebbinghaus_time[0.500000]
+2019-12-24 11:24:44,079 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 11:28:11,010 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.573056]ebbinghaus_time[1.000000]
+2019-12-24 11:28:11,010 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.570579]ebbinghaus_time[8.000000]
+2019-12-24 11:28:11,011 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.635544]ebbinghaus_time[0.500000]
+2019-12-24 11:28:11,011 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.605127]ebbinghaus_time[0.500000]
+2019-12-24 11:28:11,011 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.500185]ebbinghaus_time[0.500000]
+2019-12-24 11:28:11,011 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.478669]ebbinghaus_time[0.500000]
+2019-12-24 11:28:11,011 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.006944]ebbinghaus_time[0.500000]
+2019-12-24 11:28:12,839 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 11:28:14,772 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 11:28:58,818 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.573600]ebbinghaus_time[1.000000]
+2019-12-24 11:28:58,818 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.571123]ebbinghaus_time[8.000000]
+2019-12-24 11:28:58,818 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.636088]ebbinghaus_time[0.500000]
+2019-12-24 11:28:58,818 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.605671]ebbinghaus_time[0.500000]
+2019-12-24 11:28:58,819 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.500729]ebbinghaus_time[0.500000]
+2019-12-24 11:28:58,819 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.479213]ebbinghaus_time[0.500000]
+2019-12-24 11:28:58,819 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.007488]ebbinghaus_time[0.500000]
+2019-12-24 11:29:00,928 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 13:34:53,576 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.661042]ebbinghaus_time[1.000000]
+2019-12-24 13:34:53,577 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.658565]ebbinghaus_time[8.000000]
+2019-12-24 13:34:53,577 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.723530]ebbinghaus_time[0.500000]
+2019-12-24 13:34:53,577 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.693113]ebbinghaus_time[0.500000]
+2019-12-24 13:34:53,577 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.588171]ebbinghaus_time[0.500000]
+2019-12-24 13:34:53,578 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.566655]ebbinghaus_time[0.500000]
+2019-12-24 13:34:53,578 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.094931]ebbinghaus_time[0.500000]
+2019-12-24 13:34:55,582 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 14:41:04,440 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.707002]ebbinghaus_time[1.000000]
+2019-12-24 14:41:04,440 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.704525]ebbinghaus_time[8.000000]
+2019-12-24 14:41:04,441 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.769491]ebbinghaus_time[0.500000]
+2019-12-24 14:41:04,441 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.739074]ebbinghaus_time[0.500000]
+2019-12-24 14:41:04,441 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.634132]ebbinghaus_time[0.500000]
+2019-12-24 14:41:04,441 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.612616]ebbinghaus_time[0.500000]
+2019-12-24 14:41:04,441 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.140891]ebbinghaus_time[0.500000]
+2019-12-24 14:41:04,441 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.045532]ebbinghaus_time[0.500000]
+2019-12-24 14:41:09,348 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 14:42:24,554 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.707928]ebbinghaus_time[1.000000]
+2019-12-24 14:42:24,554 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.705451]ebbinghaus_time[8.000000]
+2019-12-24 14:42:24,554 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.770417]ebbinghaus_time[0.500000]
+2019-12-24 14:42:24,555 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.740000]ebbinghaus_time[0.500000]
+2019-12-24 14:42:24,555 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.635058]ebbinghaus_time[0.500000]
+2019-12-24 14:42:24,555 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.613542]ebbinghaus_time[0.500000]
+2019-12-24 14:42:24,555 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.141817]ebbinghaus_time[0.500000]
+2019-12-24 14:42:24,556 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.046458]ebbinghaus_time[0.500000]
+2019-12-24 14:42:27,698 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 14:42:28,693 Winframe.py:tree_click:44 INFO] 教育知识与能力
+2019-12-24 14:58:00,673 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.718762]ebbinghaus_time[1.000000]
+2019-12-24 14:58:00,674 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.716285]ebbinghaus_time[8.000000]
+2019-12-24 14:58:00,674 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.781250]ebbinghaus_time[0.500000]
+2019-12-24 14:58:00,675 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.750833]ebbinghaus_time[0.500000]
+2019-12-24 14:58:00,675 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.645891]ebbinghaus_time[0.500000]
+2019-12-24 14:58:00,675 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.624375]ebbinghaus_time[0.500000]
+2019-12-24 14:58:00,676 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.152650]ebbinghaus_time[0.500000]
+2019-12-24 14:58:00,676 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.057292]ebbinghaus_time[0.500000]
+2019-12-24 14:58:03,527 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 14:58:05,432 Winframe.py:tree_click:44 INFO] 考研英语
+2019-12-24 15:34:56,330 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.744410]ebbinghaus_time[1.000000]
+2019-12-24 15:34:56,331 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.741933]ebbinghaus_time[8.000000]
+2019-12-24 15:34:56,331 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.806898]ebbinghaus_time[0.500000]
+2019-12-24 15:34:56,331 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.776481]ebbinghaus_time[0.500000]
+2019-12-24 15:34:56,331 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.671539]ebbinghaus_time[0.500000]
+2019-12-24 15:34:56,331 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.650023]ebbinghaus_time[0.500000]
+2019-12-24 15:34:56,332 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.178299]ebbinghaus_time[0.500000]
+2019-12-24 15:34:56,332 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.082940]ebbinghaus_time[0.500000]
+2019-12-24 15:34:59,387 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:35:00,367 Winframe.py:tree_click:44 INFO] 教育知识与能力
+2019-12-24 15:35:00,367 Winframe.py:tree_click:46 INFO] PY_VAR0
+2019-12-24 15:36:54,273 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.745775]ebbinghaus_time[1.000000]
+2019-12-24 15:36:54,273 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.743299]ebbinghaus_time[8.000000]
+2019-12-24 15:36:54,274 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.808264]ebbinghaus_time[0.500000]
+2019-12-24 15:36:54,274 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.777847]ebbinghaus_time[0.500000]
+2019-12-24 15:36:54,274 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.672905]ebbinghaus_time[0.500000]
+2019-12-24 15:36:54,274 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.651389]ebbinghaus_time[0.500000]
+2019-12-24 15:36:54,274 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.179664]ebbinghaus_time[0.500000]
+2019-12-24 15:36:54,274 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.084306]ebbinghaus_time[0.500000]
+2019-12-24 15:36:56,117 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:36:56,823 Winframe.py:tree_click:44 INFO] 教育知识与能力
+2019-12-24 15:42:52,291 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.749919]ebbinghaus_time[1.000000]
+2019-12-24 15:42:52,291 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.747442]ebbinghaus_time[8.000000]
+2019-12-24 15:42:52,291 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.812407]ebbinghaus_time[0.500000]
+2019-12-24 15:42:52,291 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.781991]ebbinghaus_time[0.500000]
+2019-12-24 15:42:52,292 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.677049]ebbinghaus_time[0.500000]
+2019-12-24 15:42:52,292 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.655532]ebbinghaus_time[0.500000]
+2019-12-24 15:42:52,292 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.183808]ebbinghaus_time[0.500000]
+2019-12-24 15:42:52,293 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.088449]ebbinghaus_time[0.500000]
+2019-12-24 15:42:54,705 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:43:16,459 Winframe.py:tree_click:44 INFO] 考研英语
+2019-12-24 15:44:38,305 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.751146]ebbinghaus_time[1.000000]
+2019-12-24 15:44:38,306 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.748669]ebbinghaus_time[8.000000]
+2019-12-24 15:44:38,306 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.813634]ebbinghaus_time[0.500000]
+2019-12-24 15:44:38,306 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.783218]ebbinghaus_time[0.500000]
+2019-12-24 15:44:38,306 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.678275]ebbinghaus_time[0.500000]
+2019-12-24 15:44:38,307 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.656759]ebbinghaus_time[0.500000]
+2019-12-24 15:44:38,307 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.185035]ebbinghaus_time[0.500000]
+2019-12-24 15:44:38,307 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.089676]ebbinghaus_time[0.500000]
+2019-12-24 15:44:42,328 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:44:44,800 Winframe.py:tree_click:44 INFO] 考研英语
+2019-12-24 15:45:45,338 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.751921]ebbinghaus_time[1.000000]
+2019-12-24 15:45:45,339 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.749444]ebbinghaus_time[8.000000]
+2019-12-24 15:45:45,339 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.814410]ebbinghaus_time[0.500000]
+2019-12-24 15:45:45,339 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.783993]ebbinghaus_time[0.500000]
+2019-12-24 15:45:45,339 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.679051]ebbinghaus_time[0.500000]
+2019-12-24 15:45:45,340 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.657535]ebbinghaus_time[0.500000]
+2019-12-24 15:45:45,340 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.185810]ebbinghaus_time[0.500000]
+2019-12-24 15:45:45,340 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.090451]ebbinghaus_time[0.500000]
+2019-12-24 15:45:49,041 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:45:54,215 Winframe.py:tree_click:44 INFO] 考研英语
+2019-12-24 15:46:00,247 Ebbinghaus.py:update_item:200 INFO] update items set name = '考研英语', content = '2016年真题，完型填空
+
+', remark = '测试
+' where id = 2
+2019-12-24 15:46:43,447 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:47:13,452 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.752940]ebbinghaus_time[1.000000]
+2019-12-24 15:47:13,452 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.750463]ebbinghaus_time[8.000000]
+2019-12-24 15:47:13,453 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.815428]ebbinghaus_time[0.500000]
+2019-12-24 15:47:13,453 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.785012]ebbinghaus_time[0.500000]
+2019-12-24 15:47:13,453 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.680069]ebbinghaus_time[0.500000]
+2019-12-24 15:47:13,453 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.658553]ebbinghaus_time[0.500000]
+2019-12-24 15:47:13,453 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.186829]ebbinghaus_time[0.500000]
+2019-12-24 15:47:13,454 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.091470]ebbinghaus_time[0.500000]
+2019-12-24 15:47:15,169 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:47:16,368 Winframe.py:tree_click:44 INFO] 考研英语
+2019-12-24 15:47:21,392 Ebbinghaus.py:update_item:200 INFO] update items set name = '考研英语', content = '2016年真题，完型填空', remark = '' where id = 2
+2019-12-24 15:53:11,044 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.757083]ebbinghaus_time[1.000000]
+2019-12-24 15:53:11,044 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.754606]ebbinghaus_time[8.000000]
+2019-12-24 15:53:11,044 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.819572]ebbinghaus_time[0.500000]
+2019-12-24 15:53:11,044 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.789155]ebbinghaus_time[0.500000]
+2019-12-24 15:53:11,045 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.684213]ebbinghaus_time[0.500000]
+2019-12-24 15:53:11,045 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.662697]ebbinghaus_time[0.500000]
+2019-12-24 15:53:11,045 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.190972]ebbinghaus_time[0.500000]
+2019-12-24 15:53:11,045 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.095613]ebbinghaus_time[0.500000]
+2019-12-24 15:53:12,916 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:53:14,981 Winframe.py:tree_click:49 INFO] 考研英语
+2019-12-24 15:54:19,760 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.757870]ebbinghaus_time[1.000000]
+2019-12-24 15:54:19,760 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.755394]ebbinghaus_time[8.000000]
+2019-12-24 15:54:19,761 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.820359]ebbinghaus_time[0.500000]
+2019-12-24 15:54:19,761 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.789942]ebbinghaus_time[0.500000]
+2019-12-24 15:54:19,762 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.685000]ebbinghaus_time[0.500000]
+2019-12-24 15:54:19,762 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.663484]ebbinghaus_time[0.500000]
+2019-12-24 15:54:19,762 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.191759]ebbinghaus_time[0.500000]
+2019-12-24 15:54:19,762 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.096400]ebbinghaus_time[0.500000]
+2019-12-24 15:54:21,836 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:54:22,949 Winframe.py:tree_click:49 INFO] 考研英语
+2019-12-24 15:54:29,227 Ebbinghaus.py:update_item:200 INFO] update items set name = '考研英语', content = '2016年真题，完型填空', remark = '测试' where id = 2
+2019-12-24 15:55:11,375 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.758472]ebbinghaus_time[1.000000]
+2019-12-24 15:55:11,376 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.755995]ebbinghaus_time[8.000000]
+2019-12-24 15:55:11,376 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.820961]ebbinghaus_time[0.500000]
+2019-12-24 15:55:11,376 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.790544]ebbinghaus_time[0.500000]
+2019-12-24 15:55:11,376 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.685602]ebbinghaus_time[0.500000]
+2019-12-24 15:55:11,377 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.664086]ebbinghaus_time[0.500000]
+2019-12-24 15:55:11,377 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.192361]ebbinghaus_time[0.500000]
+2019-12-24 15:55:11,377 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.097002]ebbinghaus_time[0.500000]
+2019-12-24 15:55:17,083 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:55:18,186 Winframe.py:tree_click:49 INFO] 考研英语
+2019-12-24 15:55:20,761 Ebbinghaus.py:update_item:200 INFO] update items set name = '考研英语', content = '2016年真题，完型填空', remark = '' where id = 2
+2019-12-24 15:56:10,217 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.759155]ebbinghaus_time[1.000000]
+2019-12-24 15:56:10,218 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[5.756678]ebbinghaus_time[8.000000]
+2019-12-24 15:56:10,218 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.821644]ebbinghaus_time[0.500000]
+2019-12-24 15:56:10,219 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.791227]ebbinghaus_time[0.500000]
+2019-12-24 15:56:10,219 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[4.686285]ebbinghaus_time[0.500000]
+2019-12-24 15:56:10,220 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.664769]ebbinghaus_time[0.500000]
+2019-12-24 15:56:10,220 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.193044]ebbinghaus_time[0.500000]
+2019-12-24 15:56:10,221 Ebbinghaus.py:today_to_do_list:85 INFO] interval_time[0.097685]ebbinghaus_time[0.500000]
+2019-12-24 15:56:12,614 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:56:13,582 Winframe.py:tree_click:49 INFO] 考研英语
+2019-12-24 15:56:18,702 Ebbinghaus.py:update_item:200 INFO] update items set name = '考研英语', content = '2016年真题，完型填空', remark = '测试' where id = 2
+2019-12-24 15:56:23,126 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 15:56:24,227 Winframe.py:tree_click:49 INFO] 考研英语
+2019-12-24 15:56:28,158 Ebbinghaus.py:update_item:200 INFO] update items set name = '考研英语', content = '2016年真题，完型填空', remark = '' where id = 2
+2019-12-24 15:56:37,768 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 17:06:25,402 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items
+2019-12-24 17:06:35,741 Ebbinghaus.py:list_all:183 INFO] SELECT * FROM items ORDER BY ID DESC
+2019-12-24 17:06:42,882 Ebbinghaus.py:get_item_name:171 INFO] SELECT DISTINCT name FROM items

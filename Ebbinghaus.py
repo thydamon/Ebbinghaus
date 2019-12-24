@@ -15,6 +15,18 @@ import time
 from collections import namedtuple
 
 
+def cal_time_interval(time_start, now_time):
+    db_time = datetime.strptime(time_start, '%Y-%m-%d %H:%M:%S')
+    # now_time = datetime.now()
+    # 计算差值
+    interval = now_time - db_time
+    interval_day = interval.days
+    interval_second = interval.seconds
+    interval_time = interval_day + interval_second / (60 * 60 * 24)
+
+    return interval_time
+
+
 class Ebbinghaus(object):
     def __init__(self):
         database_path = Dbconn.get_project_root() + "/" + "Ebbinghaus.db"
@@ -53,14 +65,17 @@ class Ebbinghaus(object):
 
         ebbinghaus_rows = []
         for row in raw_rows:
-            # 取时间比较
-            db_time = datetime.strptime(row[3], '%Y-%m-%d %H:%M:%S')
-            now_time = datetime.now()
+            # # 取时间比较
+            # db_time = datetime.strptime(row[3], '%Y-%m-%d %H:%M:%S')
+            # now_time = datetime.now()
+            # # 计算差值
+            # interval = now_time - db_time
+            # interval_day = interval.days
+            # interval_second = interval.seconds
+            # interval_time = interval_day + interval_second/(60*60*24)
+
             # 计算差值
-            interval = now_time - db_time
-            interval_day = interval.days
-            interval_second = interval.seconds
-            interval_time = interval_day + interval_second/(60*60*24)
+            interval_time = cal_time_interval(row[3], datetime.now())
 
             # 查询ebbinghaus信息
             sql = "select time from ebbinghaus where id = %d" % row[4]
@@ -90,7 +105,7 @@ class Ebbinghaus(object):
         now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         sql = "insert into items (Name,Content,Remark,Time,Times,EbbinghausId,Status,Update_Time) " \
               "values('%s','%s','%s','%s',%d,%d,%d, '%s')" % \
-              (name, content, remark, now, 0, 1, 1, now)
+              (name, content.strip(), remark.strip(), now, 0, 1, 1, now)
         self.db_con.execute(sql)
         self.db_con.commit()
 
@@ -124,6 +139,7 @@ class Ebbinghaus(object):
         self.db_con.execute(sql)
         raw_rows = self.db_con.fetchall()
         times = int(raw_rows[0][0]) + 1  # 次数加一
+        rank = int(raw_rows[0][1])
 
         # 只有等级调小才重新更新日期，计算时间间隔
         if rank > int(raw_rows[0][1]):
@@ -131,24 +147,74 @@ class Ebbinghaus(object):
         else:
             update_time = raw_rows[0][2]  # 原来时间
 
-        sql = "update items set times = %d, ebbinghausid = %d, remark = '%s', Update_Time = '%s' where id = %d" % \
+        # 未按期完成的，重新开始计算
+        interval_time = cal_time_interval(update_time, datetime.now())  # 任务完成时间间隔
+        if interval_time > self.get_day_by_rank_id(rank):   # 任务完成时间间隔大于ebbinghuas时间间隔
+            update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+
+        sql = "update items set times = %d, ebbinghausid = %d, remark = '%s', update_time = '%s' where id = %d" % \
               (times, ebbinghaus_id, remark, update_time, item_id)
         logger.info(sql)
         self.db_con.execute(sql)
         self.db_con.commit()
 
-#
-# if __name__ == '__main__':
-#     Log.init_logger("./Ebbinghaus.log", "debug")
-#     eb = Ebbinghaus()
-#     # eb.register_today_task("name3", "content3", "")
-#     # eb.update_today_task()
-#     rows = eb.today_to_do_list()
-#     logger.info("*"*50)
-#     logger.info(rows)
-#     logger.info("="*50)
-#     eb.update_today_task(2, 2, "")
-#     # rows = eb.today_to_do_list()
-#     logger.info("*" * 50)
-#     logger.info(rows)
+    def get_day_by_rank_id(self, rank):
+        sql = "select time from ebbinghaus,rank where rank.ebbinghausId = ebbinghaus.id and rank = %d" % rank
+        logger.info(sql)
+        self.db_con.execute(sql)
+        raw_row = self.db_con.fetchall()
+
+        return int(raw_row[0][0])
+
+    def get_item_name(self):
+        sql = "SELECT DISTINCT name FROM items"
+        logger.info(sql)
+        self.db_con.execute(sql)
+        raw_row = self.db_con.fetchall()
+
+        ret_row = []
+        for ele in raw_row:
+            ret_row.append(ele[0])
+
+        return tuple(ret_row)
+
+    def list_all(self):
+        sql = "SELECT * FROM items ORDER BY ID DESC"
+        logger.info(sql)
+        self.db_con.execute(sql)
+        raw_rows = self.db_con.fetchall()
+
+        item_type = namedtuple('item', ['id', 'name', 'time', 'content', 'remark', 'times', 'ebbinghuasid', 'status',
+                                        'update_time'])
+
+        ret_rows = []
+        for row in raw_rows:
+                item = item_type._make(list(row))
+                ret_rows.append(item)
+
+        return ret_rows
+
+    def update_item(self, item_id, name, content, remark):
+        sql = "update items set name = '%s', content = '%s', remark = '%s' where id = %d" % \
+              (name, content.strip(), remark.strip(), int(item_id))
+        logger.info(sql)
+        self.db_con.execute(sql)
+        self.db_con.commit()
+
+
+if __name__ == '__main__':
+    Log.init_logger("./Ebbinghaus.log", "debug")
+    eb = Ebbinghaus()
+    # eb.register_today_task("name3", "content3", "")
+    # eb.update_today_task()
+    # rows = eb.today_to_do_list()
+    # logger.info("*"*50)
+    # logger.info(rows)
+    # logger.info("="*50)
+    # eb.update_today_task(2, 2, "")
+    # rows = eb.today_to_do_list()
+    rows = eb.list_all()
+    print(rows)
+    logger.info("*" * 50)
+    # logger.info(rows)
 
