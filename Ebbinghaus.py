@@ -134,26 +134,28 @@ class Ebbinghaus(object):
         elif rank == 5:
             ebbinghaus_id = 2
 
-        sql = "select times,rank,update_time from items where id = %d" % item_id
+        sql = "select times,ebbinghausid,update_time from items where id = %d" % item_id
         logger.info(sql)
         self.db_con.execute(sql)
         raw_rows = self.db_con.fetchall()
         times = int(raw_rows[0][0]) + 1  # 次数加一
-        rank = int(raw_rows[0][1])
+        # rank = int(raw_rows[0][1])
 
         # 只有等级调小才重新更新日期，计算时间间隔
-        if rank > int(raw_rows[0][1]):
+        if ebbinghaus_id < int(raw_rows[0][1]):
             update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())   # 当期时间
         else:
             update_time = raw_rows[0][2]  # 原来时间
 
         # 未按期完成的，重新开始计算
         interval_time = cal_time_interval(update_time, datetime.now())  # 任务完成时间间隔
+        logger.info("update_time[%s],now[%s],interval_time[%f]ebbbinghaus_interval[%f]"
+                    % (update_time, datetime.now(), interval_time, self.get_day_by_rank_id(rank)))
         if interval_time > self.get_day_by_rank_id(rank):   # 任务完成时间间隔大于ebbinghuas时间间隔
             update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
         sql = "update items set times = %d, ebbinghausid = %d, remark = '%s', update_time = '%s' where id = %d" % \
-              (times, ebbinghaus_id, remark, update_time, item_id)
+              (times, ebbinghaus_id, remark.strip(), update_time, item_id)
         logger.info(sql)
         self.db_con.execute(sql)
         self.db_con.commit()
@@ -203,8 +205,8 @@ class Ebbinghaus(object):
 
 
 if __name__ == '__main__':
-    Log.init_logger("./Ebbinghaus.log", "debug")
-    eb = Ebbinghaus()
+    # Log.init_logger("./Ebbinghaus.log", "debug")
+    # eb = Ebbinghaus()
     # eb.register_today_task("name3", "content3", "")
     # eb.update_today_task()
     # rows = eb.today_to_do_list()
@@ -213,8 +215,9 @@ if __name__ == '__main__':
     # logger.info("="*50)
     # eb.update_today_task(2, 2, "")
     # rows = eb.today_to_do_list()
-    rows = eb.list_all()
-    print(rows)
-    logger.info("*" * 50)
+    # rows = eb.list_all()
+    # print(rows)
+    # logger.info("*" * 50)
     # logger.info(rows)
-
+    a = cal_time_interval("2019-12-25 21:20:55", datetime.now())
+    print(a)
