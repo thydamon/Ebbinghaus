@@ -8,7 +8,6 @@ Winframe处理模块
 """
 
 from tkinter import *
-import copy
 import tkinter.messagebox
 from tkinter import ttk
 from tkinter import filedialog
@@ -91,22 +90,28 @@ class WinFrame(object):
         self.center_window(500, 220)
         # self.win_frame.geometry('500x220')  # 设置窗口大小
         self.set_menu()
+        self.init_window()
 
-    def draw_menu(self, line_frame):
-        """
-        在菜单下面画线
-        :param line_frame:
-        :return:
-        """
-        can = Canvas(line_frame, width=400, height=450)
-        can.pack()
-        can.create_line((0, 25), (500, 25), width=1)
+    def init_window(self):
+        box_frame = Frame(self.win_frame)
+        self.frame_list.append(box_frame)
+        box_frame.pack(side=TOP, fill=BOTH, expand=NO)
+        text_label_insert = Label(box_frame, text='Insert')
+        #text_label_name.grid(row=0, column=0)
+        text_label_insert.pack()
+        # text_label_insert.place(x = 20, y = 36, width=10, height=30)
+        # text_label_task = Label(box_frame, text='Task')
+        # text_label_task.pack()
+        # text_label_task.place(relx=2, rely=0.5, anchor=CENTER)
+        # line = ttk.Separator(box_frame, orient=HORIZONTAL)
+        # line.pack()
+        # line.place(relx=3, rely=3, anchor=CENTER)
+        # line.grid(row=1, column=1, columnspan=3, sticky="we")
 
     def fetch_one_item(self):
-        raw_item = copy.deepcopy(self.items)
-        fetch_one_item = raw_item.pop()
+        item = self.items[len(self.items)-1]
 
-        return fetch_one_item
+        return item
 
     def remove_one_item(self):
         remove_one_item = self.items.pop()
@@ -118,15 +123,19 @@ class WinFrame(object):
 
         file_menu = Menu(menu_bar, tearoff=0)
         menu_bar.add_cascade(label='File', menu=file_menu)
-        file_menu.add_command(label='Insert', command=self.register_task)
-        file_menu.add_command(label='Task', command=self.show_task)
-        file_menu.add_command(label='List', command=self.list_task)
-        file_menu.add_command(label='All', command=self.show_all)
-        file_menu.add_command(label='Export', command=self.export_task)
+        file_menu.add_command(label='Insert', command=self.add_one_task)
+        file_menu.add_separator()
+        file_menu.add_command(label='Task', command=self.list_one_task)
+        file_menu.add_separator()
+        file_menu.add_command(label='List', command=self.list_all_task)
+        file_menu.add_separator()
+        file_menu.add_command(label='All', command=self.list_all_items)
+        file_menu.add_separator()
+        file_menu.add_command(label='Export', command=self.export_all_task)
 
         self.win_frame.config(menu=menu_bar)
 
-    def register_task(self):
+    def add_one_task(self):
         # 清空界面
         self.destroy_frame()
 
@@ -166,14 +175,14 @@ class WinFrame(object):
 
         # 按钮
         button_box_r = Button(button_frame, text='Save', width=5, height=1,
-                              command=lambda: self.insert_task(combox_list, text_box, remark_box))
+                              command=lambda: self.insert_task_into_db(combox_list, text_box, remark_box))
         button_box_r.grid(row=0, column=1)
 
-    def show_task(self):
+    def list_one_task(self):
         # 清空界面
         self.destroy_frame()
         if len(self.items) > 0:
-            ele_list = self.remove_one_item()
+            ele_list = self.fetch_one_item()
         else:
             tkinter.messagebox.showinfo('Message', 'Task is Empty!')
             return
@@ -215,26 +224,30 @@ class WinFrame(object):
 
         # 按钮
         button_box_r = Button(button_frame, text='R', width=2, height=1,
-                              command=lambda: self.update_task(remark_box, ele_list.id, 1))
+                              command=lambda: self.update_task_into_db(remark_box, ele_list.id, 1))
         button_box_r.grid(row=0, column=1)
 
         button_box_e = Button(button_frame, text='E', width=2, height=1,
-                              command=lambda: self.update_task(remark_box, ele_list.id, 2))
+                              command=lambda: self.update_task_into_db(remark_box, ele_list.id, 2))
         button_box_e.grid(row=0, column=2)
 
         button_box_g = Button(button_frame, text='G', width=2, height=1,
-                              command=lambda: self.update_task(remark_box, ele_list.id, 3))
+                              command=lambda: self.update_task_into_db(remark_box, ele_list.id, 3))
         button_box_g.grid(row=0, column=3)
 
         button_box_d = Button(button_frame, text='D', width=2, height=1,
-                              command=lambda: self.update_task(remark_box, ele_list.id, 4))
+                              command=lambda: self.update_task_into_db(remark_box, ele_list.id, 4))
         button_box_d.grid(row=0, column=4)
 
         button_box_t = Button(button_frame, text='T', width=2, height=1,
-                              command=lambda: self.update_task(remark_box, ele_list.id, 5))
+                              command=lambda: self.update_task_into_db(remark_box, ele_list.id, 5))
         button_box_t.grid(row=0, column=5)
 
-    def list_task(self):
+        button_box_t = Button(button_frame, text='Skip', width=4, height=1,
+                              command=lambda: self.skip_task())
+        button_box_t.grid(row=0, column=6)
+
+    def list_all_task(self):
         self.destroy_frame()
         if len(self.items) == 0:
             tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
@@ -265,21 +278,21 @@ class WinFrame(object):
 
         tree_view.pack()
 
-    def insert_task(self, combox_list, text_box, remark_box):
+    def insert_task_into_db(self, combox_list, text_box, remark_box):
         self.algo_eb.register_today_task(combox_list.get(), text_box.get(1.0, END), remark_box.get(1.0, END))
         # combox_list.delete(0, END)
         text_box.delete(1.0, END)
         remark_box.delete(1.0, END)
 
-    def show_all(self):
+    def list_all_items(self):
         self.destroy_frame()
-        if len(self.items) == 0:
-            tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
-            return
+        # if len(self.items) == 0:
+        #     tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
+        #     return
         table_frame = Frame(self.win_frame)
         table_frame.pack()
         self.frame_list.append(table_frame)
-        columns = ("ID", "Name", "Time", "Content", "Remark", "Times", "Ebbinghuasid", "Status", "Update Time")
+        columns = ("ID", "Name", "Time", "Content", "Remark", "Times", "Ebbinghuasid", "Status", "Update Time", "Review Time")
         tree_view = ttk.Treeview(table_frame, show="headings", height=45, columns=columns)
 
         tree_view.heading("ID", text="ID")
@@ -291,6 +304,7 @@ class WinFrame(object):
         tree_view.heading("Ebbinghuasid", text="Ebbinghuasid")
         tree_view.heading("Status", text="Status")
         tree_view.heading("Update Time", text="Update Time")
+        tree_view.heading("Review Time", text="Review Time")
 
         tree_view.column("ID", width=100)
         tree_view.column("Name", width=100)
@@ -301,6 +315,11 @@ class WinFrame(object):
         tree_view.column("Ebbinghuasid", width=100)
         tree_view.column("Status", width=100)
         tree_view.column("Update Time", width=100)
+        tree_view.column("Review Time", width=100)
+
+        if len(self.algo_eb.list_all()) == 0:
+            tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
+            return
 
         for ele in self.algo_eb.list_all():
             tree_view.insert("", 0, values=ele)
@@ -314,7 +333,7 @@ class WinFrame(object):
 
         tree_view.pack()
 
-    def export_task(self):
+    def export_all_task(self):
         book = xlwt.Workbook()
         sheet = book.add_sheet('sheet')
 
@@ -344,9 +363,16 @@ class WinFrame(object):
         xml_file = filedialog.asksaveasfilename()
         book.save('%s_%s.xls' % (xml_file, date_time))
 
-    def update_task(self, remark_box, item_id, rank):
+    def update_task_into_db(self, remark_box, item_id, rank):
         self.algo_eb.update_today_task(item_id, rank, remark_box.get(1.0, END))
-        self.show_task()
+        # 删除指定最后一个item
+        self.items.pop(len(self.items)-1)
+        self.list_one_task()
+
+    def skip_task(self):
+        skip_item = self.items.pop(len(self.items)-1)
+        self.items.insert(0, skip_item)
+        self.list_one_task()
 
     def center_window(self, width, height):
         screenwidth = self.win_frame.winfo_screenwidth()

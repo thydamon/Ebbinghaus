@@ -37,27 +37,8 @@ class Ebbinghaus(object):
     def today_to_do_list(self):
         """
         生成今天的任务
-        # >>> from datetime import datetime
-        # >>> cday = datetime.strptime('2017-8-1 18:20:20', '%Y-%m-%d %H:%M:%S')
-        # >>> print(cday)
-        2017-08-01 18:20:20
-        # >>> from datetime import datetime, timedelta
-        # >>> now = datetime.now()
-        # >>> now
-        datetime.datetime(2017, 5, 18, 16, 57, 3, 540997)
-        # >>> now + timedelta(hours=10)
-        datetime.datetime(2017, 5, 19, 2, 57, 3, 540997)
-        # >>> now - timedelta(days=1)
-        datetime.datetime(2017, 5, 17, 16, 57, 3, 540997)
-        # >>> now + timedelta(days=2, hours=12)
-        datetime.datetime(2017, 5, 21, 4, 57, 3, 540997)
         :return:
         """
-        # 取初始的任务
-        # sql = "select name,content,time,ebbinghausid from items where status = 0"
-        # self.db_con.execute(sql)
-        # unfinished_rows = self.db_con.fetchall()
-
         # 取遗忘曲线未完成任务
         sql = "select id,name,content,update_time,ebbinghausid from items where status = 1"
         self.db_con.execute(sql)
@@ -65,15 +46,6 @@ class Ebbinghaus(object):
 
         ebbinghaus_rows = []
         for row in raw_rows:
-            # # 取时间比较
-            # db_time = datetime.strptime(row[3], '%Y-%m-%d %H:%M:%S')
-            # now_time = datetime.now()
-            # # 计算差值
-            # interval = now_time - db_time
-            # interval_day = interval.days
-            # interval_second = interval.seconds
-            # interval_time = interval_day + interval_second/(60*60*24)
-
             # 计算差值
             interval_time = cal_time_interval(row[3], datetime.now())
 
@@ -103,9 +75,12 @@ class Ebbinghaus(object):
         status: 1-未完成 2-当天已完成
         """
         now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        sql = "insert into items (Name,Content,Remark,Time,Times,EbbinghausId,Status,Update_Time) " \
-              "values('%s','%s','%s','%s',%d,%d,%d, '%s')" % \
-              (name, content.strip(), remark.strip(), now, 0, 1, 1, now)
+        now_time = datetime.strptime(now, '%Y-%m-%d %H:%M:%S')
+        delta = timedelta(days=0.5)
+        review_time = (now_time+delta).strftime('%Y-%m-%d %H:%M:%S')
+        sql = "insert into items (Name,Content,Remark,Time,Times,EbbinghausId,Status,Update_Time,Review_Time) " \
+              "values('%s','%s','%s','%s',%d,%d,%d, '%s','%s')" % \
+              (name, content.strip(), remark.strip(), now, 0, 1, 1, now, review_time)
         self.db_con.execute(sql)
         self.db_con.commit()
 
@@ -148,14 +123,20 @@ class Ebbinghaus(object):
             update_time = raw_rows[0][2]  # 原来时间
 
         # 未按期完成的，重新开始计算
+        rank_days = self.get_day_by_rank_id(rank)
         interval_time = cal_time_interval(update_time, datetime.now())  # 任务完成时间间隔
         logger.info("update_time[%s],now[%s],interval_time[%f]ebbbinghaus_interval[%f]"
-                    % (update_time, datetime.now(), interval_time, self.get_day_by_rank_id(rank)))
-        if interval_time > self.get_day_by_rank_id(rank):   # 任务完成时间间隔大于ebbinghuas时间间隔
+                    % (update_time, datetime.now(), interval_time, rank_days))
+        if interval_time > rank_days:   # 任务完成时间间隔大于ebbinghuas时间间隔
             update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
-        sql = "update items set times = %d, ebbinghausid = %d, remark = '%s', update_time = '%s' where id = %d" % \
-              (times, ebbinghaus_id, remark.strip(), update_time, item_id)
+        now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        now_time = datetime.strptime(now, '%Y-%m-%d %H:%M:%S')
+        delta = timedelta(days=rank_days)
+        review_time = (now_time+delta).strftime('%Y-%m-%d %H:%M:%S')
+
+        sql = "update items set times = %d, ebbinghausid = %d, remark = '%s', update_time = '%s', review_time= '%s' " \
+              "where id = %d" % (times, ebbinghaus_id, remark.strip(), update_time, review_time, item_id)
         logger.info(sql)
         self.db_con.execute(sql)
         self.db_con.commit()
@@ -187,7 +168,7 @@ class Ebbinghaus(object):
         raw_rows = self.db_con.fetchall()
 
         item_type = namedtuple('item', ['id', 'name', 'time', 'content', 'remark', 'times', 'ebbinghuasid', 'status',
-                                        'update_time'])
+                                        'update_time', 'review_time'])
 
         ret_rows = []
         for row in raw_rows:
