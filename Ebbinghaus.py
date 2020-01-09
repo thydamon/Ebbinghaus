@@ -117,18 +117,20 @@ class Ebbinghaus(object):
         # rank = int(raw_rows[0][1])
 
         # 只有等级调小才重新更新日期，计算时间间隔
-        if ebbinghaus_id < int(raw_rows[0][1]):
-            update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())   # 当期时间
-        else:
-            update_time = raw_rows[0][2]  # 原来时间
-
-        # 未按期完成的，重新开始计算
+        # if ebbinghaus_id < int(raw_rows[0][1]):
+        #     update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())   # 当期时间
+        # else:
+        #     update_time = raw_rows[0][2]  # 原来时间
+        #
+        # # 未按期完成的，重新开始计算
         rank_days = self.get_day_by_rank_id(rank)
-        interval_time = cal_time_interval(update_time, datetime.now())  # 任务完成时间间隔
-        logger.info("update_time[%s],now[%s],interval_time[%f]ebbbinghaus_interval[%f]"
-                    % (update_time, datetime.now(), interval_time, rank_days))
-        if interval_time > rank_days:   # 任务完成时间间隔大于ebbinghuas时间间隔
-            update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        # interval_time = cal_time_interval(update_time, datetime.now())  # 任务完成时间间隔
+        # logger.info("update_time[%s],now[%s],interval_time[%f]ebbbinghaus_interval[%f]"
+        #             % (update_time, datetime.now(), interval_time, rank_days))
+        # if interval_time > rank_days:   # 任务完成时间间隔大于ebbinghuas时间间隔
+        #     update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        # 更新时间都取最新时间
+        update_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())  # 当期时间
 
         now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         now_time = datetime.strptime(now, '%Y-%m-%d %H:%M:%S')
@@ -163,6 +165,22 @@ class Ebbinghaus(object):
 
     def list_all(self):
         sql = "SELECT * FROM items ORDER BY ID DESC"
+        logger.info(sql)
+        self.db_con.execute(sql)
+        raw_rows = self.db_con.fetchall()
+
+        item_type = namedtuple('item', ['id', 'name', 'time', 'content', 'remark', 'times', 'ebbinghuasid', 'status',
+                                        'update_time', 'review_time'])
+
+        ret_rows = []
+        for row in raw_rows:
+                item = item_type._make(list(row))
+                ret_rows.append(item)
+
+        return ret_rows
+
+    def list_all_by_query(self, query_string):
+        sql = "SELECT * FROM items WHERE Name = '%s' ORDER BY ID DESC" % query_string
         logger.info(sql)
         self.db_con.execute(sql)
         raw_rows = self.db_con.fetchall()

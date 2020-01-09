@@ -16,6 +16,7 @@ from datetime import datetime
 import Log
 from Log import logger
 from Ebbinghaus import Ebbinghaus
+from tkinter.simpledialog import askstring
 
 photo = None
 
@@ -80,7 +81,13 @@ def tree_click(event, tree, winframe):
     sub_frame.mainloop()
 
 
-class WinFrame(object):
+def ask_query():
+    result = askstring(title='Ask Query', prompt='Query Option：', initialvalue='考研数学')
+    # 打印内容
+    return result
+
+
+class WinFrame(Tk):
     def __init__(self):
         self.algo_eb = Ebbinghaus()
         self.items = self.algo_eb.today_to_do_list()
@@ -289,6 +296,7 @@ class WinFrame(object):
         # if len(self.items) == 0:
         #     tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
         #     return
+        query_string = ask_query()
         table_frame = Frame(self.win_frame)
         table_frame.pack()
         self.frame_list.append(table_frame)
@@ -321,8 +329,12 @@ class WinFrame(object):
             tkinter.messagebox.showinfo('Message', 'Task List is Empty!')
             return
 
-        for ele in self.algo_eb.list_all():
-            tree_view.insert("", 0, values=ele)
+        if query_string not in self.algo_eb.get_item_name():
+            for ele in self.algo_eb.list_all():
+                tree_view.insert("", 0, values=ele)
+        else:
+            for ele in self.algo_eb.list_all_by_query(query_string):
+                tree_view.insert("", 0, values=ele)
 
         tree_view.bind('<Double-Button-1>', lambda event: tree_click(event, tree_view, self))
 
